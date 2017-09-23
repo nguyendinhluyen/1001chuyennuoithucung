@@ -1,0 +1,172 @@
+RewriteEngine on
+Options +FollowSymLinks
+RewriteCond %{REQUEST_FILENAME} -d [OR]
+RewriteCond %{REQUEST_FILENAME} -s
+
+#non-www
+RewriteCond %{HTTP_HOST} ^www.(.+)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteRule ^$ home/index.php?show=home [L]
+
+#dang ky pet
+RewriteRule ^dang-ky-pet$ home/index.php?show=re_pet_profile [L]
+RewriteRule ^danh-sach-pet$ home/index.php?show=list_pet_profile [L]
+RewriteRule ^cap-nhat-pet-([0-9]*).htm$ home/index.php?show=ed_pet_profile&id_pet=$1&edit=1 [L]
+RewriteRule ^xoa-pet-([0-9]*).htm$ home/index.php?show=list_pet_profile&id_pet=$1&del=1 [L]
+
+#khuyen mai
+RewriteRule ^khuyen-mai/([a-zA-Z0-9-]*)/$ home/index.php?show=info_detail&news_key=$1&cate=khuyenmai [L]
+RewriteRule ^thu-gian/([a-zA-Z0-9-]*)/$ home/index.php?show=info_detail&news_key=$1&cate=thugian [L]
+
+# RewriteRule ^san-pham-moi.htmls$ home/index.php?show=allproduct&type=new [L]
+# RewriteRule ^san-pham-ban-chay.htmls$ home/index.php?show=allproduct&type=best [L]
+# RewriteRule ^san-pham-khuyen-mai.htmls$ home/index.php?show=allproduct&type=promo [L]
+
+#Rewrite product
+#RewriteRule ^([a-zA-Z0-9-]*).htm$ home/index.php?show=product&category_key=$1&page=1 [L]
+#RewriteRule ^([a-zA-Z0-9-]*).htm/page=([0-9]*)$ home/index.php?show=product&category_key=$1&page=$2 [L]
+
+#show num product
+#RewriteRule ^([a-zA-Z0-9-]*).htm/([0-9]*)$ home/index.php?show=product&category_key=$1&page=1&num=$2 [L]
+#RewriteRule ^([a-zA-Z0-9-]*).htm/([0-9]*)/page=([0-9]*)$ home/index.php?show=product&category_key=$1&num=$2&page=$3 [L]
+# Need to check again
+#RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/([0-9]*).htmnumls$ home/index.php?show=product&category_key=$1&category_sub_key=$2&num=$3 [L]
+#RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/([0-9]*)/page=([0-9]*)$ home/index.php?show=product&category_key=$1&category_sub_key=$2&num=$3&page=$4 [L]
+
+#show orderby product
+#RewriteRule ^([a-zA-Z0-9-]*).htm/order/([0-9]*)$ home/index.php?show=product&category_key=$1&page=1&order_by=$2 [L]
+#RewriteRule ^([a-zA-Z0-9-]*).htm/order/([0-9]*)/page=([0-9]*)$ home/index.php?show=product&category_key=$1&order_by=$2&page=$3 [L]
+#RewriteRule ^([a-zA-Z0-9-]*)/order/([a-zA-Z0-9-]*)/([0-9]*)$ home/index.php?show=product&category_key=$1&category_sub_key=$2&order_by=$3 [L]
+#RewriteRule ^([a-zA-Z0-9-]*)/order/([a-zA-Z0-9-]*)/([0-9]*)/page=([0-9]*)$ home/index.php?show=product&category_key=$1&category_sub_key=$2&order_by=$3&page=$4 [L]
+#RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/order/([0-9]*)$ home/index.php?show=product&category_key=$1&category_sub_key=$2&order_by=$3 [L]
+# Update add ".htmls" not equal nanapet/admincp
+#RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*).htms$ home/index.php?show=product&category_key=$1&category_sub_key=$2 [L]
+#RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/page=([0-9]*)$ home/index.php?show=product&category_key=$1&category_sub_key=$2&page=$3 [L]
+
+#search
+RewriteRule ^tim-kiem/trang-([0-9]*)$ home/index.php?show=search&page=$1 [L]
+RewriteRule ^tim-kiem/tat-ca-san-pham/trang-([0-9]*)$ home/index.php?show=search_all_product&page=$1 [L]
+#RewriteRule ^tim-kiem/tat-ca-san-pham.htmls/page=([0-9]*)$ home/index.php?show=searchallproduct&page=$2 [L]
+#RewriteRule ^tim-kiem/search_key=([a-zA-Z0-9-]*)/page=([0-9]*)$ home/index.php?show=search&page=$2&search_key=$1 [L]
+#RewriteRule ^tim-kiem/search_key=([a-zA-Z0-9-]*)/product_page=([0-9]*)&news_page=([0-9]*)$ home/index.php?show=search&product_page=$2&news_page=$3&search_key=$1 [L]
+#RewriteRule ^tim-kiem/key=(.*)/product_page=([0-9]*)&news_page=([0-9]*)&entertainment_page=([0-9]*)&tabID=([0-9]*)$ home/index.php?show=search&product_page=$2&news_page=$3&entertainment_page=$4&tabID=$5&search_box=$1 [L]
+
+RewriteRule ^thuong-hieu/([0-9-]*)$ home/index.php?show=brand_name&brandkey=$1[L]
+RewriteRule ^tat-ca-thuong-hieu/([0-9-]*)/trang-([0-9]*)$ home/index.php?show=search_all_product&brandkey=$1&page=$2 [L]
+
+RewriteRule ^dang-ky$ home/index.php?show=register [L]
+RewriteRule ^process-register$ home/index.php?show=process-register [L]
+RewriteRule ^dang-nhap$ home/index.php?show=login [L]
+
+RewriteRule ^facebook-login$ home/index.php?show=facebook_login [L]
+RewriteRule ^gmail-login$ home/index.php?show=gmail_login [L]
+
+RewriteRule ^process-login$ home/index.php?show=process_login [L]
+RewriteRule ^logout$ home/index.php?show=process_login&out=1 [L]
+RewriteRule ^thong-tin-tai-khoan$ home/index.php?show=user_info [L]
+RewriteRule ^doi-mat-khau$ home/index.php?show=change_pass [L]
+RewriteRule ^cap-nhat-thong-tin$ home/index.php?show=user_info&type=update [L]
+
+#cart
+RewriteRule ^gio-hang$ home/index.php?show=cart [L]
+RewriteRule ^gio-hang/([a-zA-Z0-9-]*)$home/index.php?show=cart&product_key=$1 [L]
+RewriteRule ^gio-hang/([a-zA-Z0-9-]*)/add$ home/index.php?show=cart&product_key=$1&add=add [L]
+RewriteRule ^gio-hang/([a-zA-Z0-9-]*)/edit$ home/index.php?show=cart&product_key=$1&edit=1 [L]
+RewriteRule ^gio-hang/([a-zA-Z0-9-]*)/del$ home/index.php?show=cart&product_key=$1&del=1 [L]
+RewriteRule ^gio-hang-empty$ home/index.php?show=cart&em=1 [L]
+RewriteRule ^gio-hang.html/edit/([0-9]*)$ home/index.php?show=cart&order_id=$1&update=1 [L]
+
+RewriteRule ^ket-thuc-mua-hang/([a-zA-Z0-9-]*).html/$ home/index.php?show=cart-finish&code_coupon=$1 [L]
+RewriteRule ^ket-thuc-mua-hang$ home/index.php?show=cart-finish [L]
+RewriteRule ^lich-su-mua-hang$ home/index.php?show=historyOrder [L]
+
+
+# Bai viet
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*).htm$ home/index.php?show=info_detail_libary&news_key=$1&cate=doisongpets [L]
+
+# Doi song pets, navigation
+RewriteRule ^doi-song-pets$ home/index.php?show=info&page=1 [L]
+RewriteRule ^doi-song-pets/trang-([0-9]*)$ home/index.php?show=info&page=$1 [L]
+
+# Choose parent category such as category dogs and cat category, navigation
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/$ home/index.php?show=info&page=1&choose=$1 [L]
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose=$1&page=$2 [L]
+
+# Choose children category, navigation
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/$ home/index.php?show=info&choose1=$1&choose2=$2 [L]
+RewriteRule ^doi-song-pets/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=info&choose1=$1&choose2=$2&page=$3 [L]
+
+# khuyen mai
+RewriteRule ^khuyen-mai$ home/index.php?show=info&flag=4&page=1 [L]
+RewriteRule ^khuyen-mai/page=([0-9]*)$ home/index.php?show=info&flag=4&page=$1 [L]
+
+RewriteRule ^thu-gian$ home/index.php?show=info&flag=5 [L]
+RewriteRule ^tin-tuc$ home/index.php?show=info&flag=7 [L]
+RewriteRule ^cau-hoi-thuong-gap$ home/index.php?show=info&flag=8 [L]
+RewriteRule ^huong-dan-mua-hang$ home/index.php?show=info&flag=9 [L]
+RewriteRule ^cach-thuc-thanh-toan$ home/index.php?show=info&flag=10 [L]
+RewriteRule ^dich-vu-van-chuyen$ home/index.php?show=info&flag=11 [L]
+RewriteRule ^lien-he$ home/index.php?show=contact [L]
+
+RewriteRule ^quen-mat-khau$ home/index.php?show=forgot_pass [L]
+RewriteRule ^quen-mat-khau.html/([a-zA-Z0-9-]*)$ home/index.php?show=forgot_pass&ser_key=$1 [L]
+RewriteRule ^reset-update.chm$ home/index.php?show=resetUpdate [L]
+
+#san-pham-ua-thich flg = 1
+#danh-sach-don-hang flg = 2
+#pet-profile flg =3
+#danh-sach-dia-chi flg = 4
+#san-pham-danh-gia flg = 5
+RewriteRule ^san-pham-ua-thich$ home/index.php?show=user_infomation&flg=1 [L]
+RewriteRule ^danh-sach-don-hang$ home/index.php?show=user_infomation&flg=2 [L]
+RewriteRule ^danh-sach-don-hang.d/([0-9]*)$ home/index.php?show=user_infomation&flg=2&id_order=$1 [L]
+RewriteRule ^thu-cung-cua-toi$ home/index.php?show=user_infomation&flg=3 [L]
+RewriteRule ^so-dia-chi$ home/index.php?show=user_infomation&flg=4 [L]
+RewriteRule ^them-dia-chi.chm$ home/index.php?show=user_infomation&flg=4&up=3[L]
+RewriteRule ^sua-dia-chi.chm/([0-9]*)$ home/index.php?show=user_infomation&flg=4&up=1&id_contact=$1 [L]
+RewriteRule ^xoa-dia-chi-([0-9]*).chm$ home/index.php?show=user_infomation&flg=4&up=2&id_contact=$1 [L]
+RewriteRule ^san-pham-danh-gia$ home/index.php?show=user_infomation&flg=5 [L]
+
+#tro giup
+RewriteRule ^tro-giup$ home/index.php?show=help [L]
+RewriteRule ^tro-giup/([a-zA-Z0-9-]*).html$ home/index.php?show=help&news_key=$1 [L]
+RewriteRule ^tro-giup/([a-zA-Z0-9-]*).html/$ home/index.php?show=help&news_key=$1 [L]
+
+#gioi thieu
+RewriteRule ^gioi-thieu$ home/index.php?show=introduce [L]
+RewriteRule ^gioi-thieu/tat-ca-thuong-hieu.htm$ home/index.php?show=all_brand_name [L]
+RewriteRule ^gioi-thieu/tat-ca-thuong-hieu/trang-([0-9]*)$ home/index.php?show=all_brand_name&trang=$1 [L]
+RewriteRule ^gioi-thieu/([a-zA-Z0-9-]*).htm$ home/index.php?show=introduce&news_key=$1 [L]
+
+#nhan nuoi pet
+RewriteRule ^nhan-nuoi-pet$ home/index.php?show=adoption [L]
+RewriteRule ^nhan-nuoi-pet/([a-zA-Z0-9-]*).html$ home/index.php?show=adoption&news_key=$1 [L]
+
+#cong tac vien
+RewriteRule ^cong-tac-vien/([0-9]*).html/page=([0-9]*)$ home/index.php?show=user_admin_info&idadmin=$1&page=$2 [L]
+
+#Rewrite product for SEO
+# All products
+RewriteRule ^san-pham/$ home/index.php?show=allproduct&type=allproduct [L]
+RewriteRule ^san-pham/trang-([0-9]*)$ home/index.php?show=allproduct&type=allproduct&trang=$1 [L]
+
+# Redirect from thu vien to doi song pets
+Rewriterule ^thu-vien$ http://nanapet.com/doi-song-pets [r=301,nc]
+RewriteRule ^thu-vien/page=([0-9]*)$ http://nanapet.com/doi-song-pets [r=301,nc]
+RewriteRule ^thu-vien/([a-zA-Z0-9-]*)/$ http://nanapet.com/doi-song-pets [r=301,nc]
+RewriteRule ^thu-vien/([a-zA-Z0-9-]*)/page=([0-9]*)$ http://nanapet.com/doi-song-pets [r=301,nc]
+RewriteRule ^thu-vien/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)$ http://nanapet.com/doi-song-pets [r=301,nc]
+RewriteRule ^thu-vien/([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*)/page=([0-9]*)$ http://nanapet.com/doi-song-pets [r=301,nc]
+Rewriterule ^thu-vien/([a-zA-Z0-9-]*).htm$ http://nanapet.com/doi-song-pets [r=301,nc]
+
+# List products by category
+RewriteRule ^([a-zA-Z0-9-]*)/$ home/index.php?show=product&category_key=$1 [L]
+RewriteRule ^([a-zA-Z0-9-]*)/trang-([0-9]*)$ home/index.php?show=product&category_key=$1&trang=$2 [L]
+
+#show product detail
+RewriteRule ^([a-zA-Z0-9-]*)/([a-zA-Z0-9-]*).htm$ home/index.php?show=product_detail&category_key=$1&product_key=$2 [L]
+
+#Error 404
+RewriteRule ^404$ home/index.php?show=404 [L]
+ErrorDocument 404 http://1001chuyennuoithucung.com/404

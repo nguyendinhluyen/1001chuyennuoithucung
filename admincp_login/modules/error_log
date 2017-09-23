@@ -1,0 +1,182 @@
+[22-Mar-2013 11:21:13 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 11:21:13 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 11:21:13 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Mar-2013 11:21:28 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 11:21:28 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 11:21:28 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Mar-2013 11:22:24 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 11:22:24 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ae9f69810eb9af0d1b829dc52b9d179a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 11:22:24 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Mar-2013 15:11:58 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a12adfe47e06165a7e6d3c0e7bc28468, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 15:11:58 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_a12adfe47e06165a7e6d3c0e7bc28468, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 15:11:58 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Mar-2013 15:12:09 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_a12adfe47e06165a7e6d3c0e7bc28468, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 15:12:09 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_a12adfe47e06165a7e6d3c0e7bc28468, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 15:12:09 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[22-Mar-2013 18:07:28 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_f3e69a6fc7136994ac56250b95a3f76c, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[22-Mar-2013 18:07:29 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_f3e69a6fc7136994ac56250b95a3f76c, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[22-Mar-2013 18:07:29 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 10:27:30 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 10:27:30 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 10:27:53 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 10:27:54 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 10:34:02 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 10:35:16 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:03:15 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:03:16 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:04:17 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:04:18 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:05:04 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:05:05 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:07:28 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:07:28 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:08:31 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:08:31 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:12:27 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:12:28 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:19:26 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:19:27 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:20:21 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:20:22 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:22:16 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:22:16 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 11:23:18 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 11:23:20 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 12:43:59 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 12:44:01 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 12:49:48 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 12:49:50 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 12:50:33 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 12:50:35 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 12:52:03 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 12:52:03 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:04:24 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:04:24 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:07:22 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:07:22 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:10:59 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:11:00 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:15:49 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:15:49 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:16:04 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:16:04 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:18:32 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:18:32 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:19:24 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:19:24 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 13:53:34 Asia/Bangkok] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[23-Mar-2013 13:53:34 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 18:50:34 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_bd097cbb4a28231264ff6b134cbcdb74, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 18:50:34 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/nanapet/public_html/admincp/modules/index.php:2) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 18:50:34 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nanapet/public_html/admincp/modules/index.php:2) in /home/nanapet/public_html/admincp/modules/index.php on line 252
+[23-Mar-2013 18:50:34 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_bd097cbb4a28231264ff6b134cbcdb74, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:50:34 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:53:36 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 18:53:36 Asia/Bangkok] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/nanapet/public_html/admincp/modules/index.php:2) in /home/nanapet/public_html/admincp/modules/index.php on line 2
+[23-Mar-2013 18:53:36 Asia/Bangkok] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nanapet/public_html/admincp/modules/index.php:2) in /home/nanapet/public_html/admincp/modules/index.php on line 252
+[23-Mar-2013 18:53:36 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:53:36 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:55:06 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:55:06 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:55:09 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:55:09 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:55:14 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:55:14 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:55:16 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_7317f123fdbfa484286ac20b5a04092a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:55:16 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:56:09 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:56:09 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:56:17 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:56:17 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:58:08 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:58:08 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:58:14 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:58:14 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:58:38 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:58:38 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 18:59:53 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b40591334ea629edaf22401898388dc7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 18:59:53 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:03:00 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5aaf9ae7b2160f90cd87ef71c582fe13, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:03:00 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:06 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:06 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:06 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_beccc4ff5b861cf8ba29e730976dbd43, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:06 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:14 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:14 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:18 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_beccc4ff5b861cf8ba29e730976dbd43, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:18 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:24 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:24 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:32 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:32 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:39 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_beccc4ff5b861cf8ba29e730976dbd43, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:39 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:46 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:46 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:51 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_beccc4ff5b861cf8ba29e730976dbd43, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:51 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:07:57 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:07:57 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:08:14 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:08:14 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:08:34 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:08:34 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:08:57 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_5a9f631d62f0da23fbc564a4d31642c7, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:08:57 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:13:35 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ce225f277a7d445bc58ff1863feec5c0, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:13:35 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:13:46 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ce225f277a7d445bc58ff1863feec5c0, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:13:46 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:17:39 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_84a9e1f9aed5b9e890d8d016e13ee59a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:17:39 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:23:37 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_0c991c2b4fe2d0aa092ff7e848784722, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:23:37 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:24:30 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_0c991c2b4fe2d0aa092ff7e848784722, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:24:30 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:35:00 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_f95915c03dc89336c9386e26835cc0e1, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:35:00 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[23-Mar-2013 23:53:14 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_124025bda5adb01b6a9ef534c13af675, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[23-Mar-2013 23:53:14 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 00:36:13 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_e46671e0ef2ecefe2f3d7973d38b5b98, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 00:36:13 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 00:45:36 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b5df9a94563dae72bd19aa7f9ef70204, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 00:45:36 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 00:45:43 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b5df9a94563dae72bd19aa7f9ef70204, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 00:45:43 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 00:45:53 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_b5df9a94563dae72bd19aa7f9ef70204, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 00:45:53 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 01:19:47 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_f5e2c15d6ffa0d5911f631b974321c68, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 01:19:47 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 01:20:38 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_f5e2c15d6ffa0d5911f631b974321c68, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 01:20:38 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 09:51:38 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_4921944bd788d99a1c879314d89d72c4, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 09:51:38 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 10:40:54 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_6dc13c4be00d0a59e2e0791723915287, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 10:40:54 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 10:41:06 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_6dc13c4be00d0a59e2e0791723915287, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 10:41:06 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 11:14:49 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_099db41ce78ca106307c73b772e0644c, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 11:14:49 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 11:55:26 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_eec4b87d963986a048b1f1d4a410578c, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 11:55:26 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 11:56:26 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_eec4b87d963986a048b1f1d4a410578c, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 11:56:26 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 13:53:28 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_6dc13c4be00d0a59e2e0791723915287, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 13:53:28 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 21:49:49 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_d25db18503166ae5b777f8463d532ab0, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 21:49:49 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[24-Mar-2013 21:50:11 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_d25db18503166ae5b777f8463d532ab0, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[24-Mar-2013 21:50:11 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 08:08:56 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ee9183f28ac93451d4a154b053e50e1e, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 08:08:56 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 08:09:05 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ee9183f28ac93451d4a154b053e50e1e, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 08:09:05 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 08:11:47 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_489b5ddc17e7fca5314c0a4b6b91d521, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 08:11:47 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 08:13:46 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ee9183f28ac93451d4a154b053e50e1e, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 08:13:46 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 08:14:58 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_ee9183f28ac93451d4a154b053e50e1e, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 08:14:58 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Mar-2013 15:30:48 Asia/Bangkok] PHP Warning:  Unknown: open(/tmp/sess_995a5c0ca55d982f024663093ad84c3a, O_RDWR) failed: No space left on device (28) in Unknown on line 0
+[25-Mar-2013 15:30:48 Asia/Bangkok] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0

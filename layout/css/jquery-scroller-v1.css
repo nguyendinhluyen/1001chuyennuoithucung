@@ -1,0 +1,49 @@
+div.brand_logo_scroller, div.vertical_scroller{
+		position:relative;
+		height:100px;
+		width:725px;
+		display:block;
+		overflow:hidden;
+		/* border:#CCCCCC 1px solid;  */
+}
+div .brand_logo_scroller .scrollingtext{
+	margin-top:5px;
+	position:absolute;
+	white-space:nowrap;
+	height:100px;
+	/* font-family:'Trebuchet MS',Arial;
+	font-size:18px;
+	font-weight:bold; 
+	color:#000000; */
+}
+
+
+div .bestsell_scroller{
+	position:relative;
+	height:270px;
+	width:725px;
+	display:block;
+	overflow:hidden;
+	/* border:#CCCCCC 1px solid;  */
+}
+
+div .bestsell_scroller .scrollingtext{
+	/* margin-top:5px; */
+	position:absolute;
+	white-space:nowrap;
+	/* height:270px; */
+	/* font-family:'Trebuchet MS',Arial;
+	font-size:18px;
+	font-weight:bold; 
+	color:#000000; */
+}
+
+
+
+/* style needed only for this example */
+span{/* margin:5px;padding:8px 12px;width:150px;background-color:#0066CC;color:#FFFFFF;border:#003366 1px solid;display:block;float:left;text-align:center; */}
+span:hover{/* background-color:#0099CC */}
+#soccer_ball_container{width:725px;height:270px;}
+#soccer_ball_container .scrollingtext{width:725px;height:270px;}
+#soccer_ball{/* display:block;position:absolute;top:0px;left:0px; */}
+

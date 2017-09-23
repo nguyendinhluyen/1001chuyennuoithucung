@@ -1,0 +1,42 @@
+ul.tabs{
+  height: 32px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+ul.tabs li{
+  float: left;
+  height: 31px;
+  line-height: 31px;
+  border: 1px solid #ddd;
+  border-left: none;
+  margin-bottom: -1px;
+  overflow: hidden;
+  position: relative;
+  background: #eee;
+}
+ul.tabs li a{
+  color: #000;
+  display: block;
+  padding: 0 20px;
+  border: 1px solid #fff;
+}
+ul.tabs li a:hover{
+  background: #ccc;
+}
+html ul.tabs li.active,
+html ul.tabs li.active a:hover{
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+.tab_container {
+  border-top: none;
+  overflow: hidden;
+  clear: both;
+  float: left; width: 100%;
+  background: #fff;
+}
+.tab_content {
+  padding: 20px;
+  line-height: 20px;
+  color: #555;
+}

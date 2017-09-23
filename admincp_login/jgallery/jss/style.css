@@ -1,0 +1,32 @@
+
+#imagesDisplay {
+    float: left;
+    width: 800px;
+    overflow:hidden;
+    margin-left:25px
+
+}
+#imagesDisplay li, #imagesDisplay li .imgThumb { width:102px; height:100px;}
+#imagesDisplay li {
+    list-style: none;
+    float:left;
+    padding:5px;
+    margin:5px;
+    background-color:white;
+    border: #CCCCCC solid 5px;
+    color:black;
+    display:inline; 
+    overflow:hidden;
+}
+#imagesDisplay ul li  .move {display:none;}
+#imagesDisplay ul li:hover .move {display:inline;position:absolute; cursor: move;}
+#imagesDisplay ul li  .delete {display:none;}
+#imagesDisplay ul li:hover .delete {display:inline;position:absolute; cursor: pointer;margin-left:25px;}
+/*#imagesDisplay ul li .pad {padding:0;}
+#imagesDisplay ul li:hover .move
+{
+margin-right: 20px;
+cursor: move;
+background:#fff;width:16px;height:16px;position:absolute;bottom:0;right:0;padding:4px 0 0 4px;
+}*/
+

@@ -1,0 +1,1 @@
+<?php$type = input($_POST['type']);$price = input($_POST['color']);$cart = $xtemplate->load('cart');$content = $cart;?>

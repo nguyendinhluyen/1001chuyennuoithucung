@@ -1,0 +1,1 @@
+<?phphttp_response_code(404);$title = 'Lỗi : không tìm thấy trang này';$keywords = 'lỗi,error,không tìm thấy trang này,404,error page';$description = 'Không tìm thấy trang này';$not_find = $xtemplate->load('404_bootstrap');$content = $xtemplate->replace($not_find, array(    'error' => 'Xin lỗi, không tìm thấy trang này'        ));?>

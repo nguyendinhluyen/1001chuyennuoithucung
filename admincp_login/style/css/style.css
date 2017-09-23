@@ -1,0 +1,361 @@
+html, body, ul, li, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    border: 0;
+}
+body
+{
+    font-family: Tahoma; 
+    font-size: 8.6pt; 
+    color: #000000;
+    margin:0;
+}
+a
+{
+    text-decoration:none;
+    color:#000;
+}
+label
+{
+    width:100px;
+    float:left;
+}
+p
+{
+    margin:0px;
+    margin-top:5px;
+}
+.line
+{
+    display:block;
+}
+.line:hover
+{
+    color:red;
+}
+#config_right
+{
+    width:800px;
+    padding:10px;
+    border:1px #ccc solid;
+    -moz-border-radius:5px;
+    margin:5px;
+}
+#config_right p 
+{
+    height:40px;
+}
+#config_right p label
+{
+    width:350px;float:left;
+}
+#config_right p label span
+{
+    width:320px;
+    font-style:italic;
+    color:#4D4040
+}
+#content_con .fieldinput
+{
+    width:300px;
+}
+.conf_title
+{
+    font-weight:bold;
+    font-size:14px;
+    color:#0C8BF0;
+    width: 300px;
+}
+#wrapper 
+{
+    width:1008px;
+    margin: 0 auto;
+    border:1px #cccccc solid;
+    height:auto;
+}
+#frmlogin 
+{
+    width:335px;
+    margin: 0 auto;
+    margin-top:150px;
+    height:auto;
+}
+#header
+{
+    width:1007px;
+    height:30px;
+    background-color:#000;
+    background:url('../images/bottom.gif');
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align:center;
+    padding-top:10px;
+
+}
+#menu_left
+{
+    width:150px;
+    margin-right:2px;
+    float:left;
+    margin-top:-2px;
+    height:auto;
+}
+#content
+{
+
+    width:853px;
+    border:1px #cccccc solid;
+    float:left;
+}
+.title
+{
+    height:23px;background:url('../images/title_bg.gif');
+    background-color:#000;
+    color:#fff;
+
+}
+.titleImg
+{
+    background-image: url('../images/titlebackground.gif');
+    background-color:#0069A8;
+    font-family: Tahoma; 
+    font-size: 8.5pt; 
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+.con_title
+{
+    float:left;
+    line-height:20px;
+}
+.con_title a
+{
+    color:#fff;
+}
+.con_list_con
+{
+    float:left;
+    line-height:25px;
+
+}
+#footer
+{
+    width:1007px;
+    height:25px;
+    background-color:#000;
+    background:url('../images/bottom.gif');
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align:center;
+    padding-top:6px;
+}
+.title_menu
+{
+    background:url('../images/bgmenu.gif');
+    width:149px;
+    height:20px;
+    color:#fff;
+    text-align:center;
+    font-weight: bold;
+    padding-top:3px;
+    font-size:12px;
+    font-family:Cambria;
+
+}
+.title_menu_san_pham
+{
+    background:url('../images/bgmenu.gif');
+    width:149px;
+    height:32px;
+    color:#fff;
+    text-align:center;
+    font-weight: bold;
+    padding-top:3px;
+    font-size:12px;
+    font-family:Cambria;
+}
+.menu
+{
+    border-left:1px #ccc solid;
+    border-right:1px #ccc solid;
+    padding-top:1px;
+}
+.menu li
+{
+    padding:5px 5px 5px 15px;
+    border-bottom:1px #ccc solid;
+    height:15px;
+    background:url('../images/bg_button_L.gif');
+
+}
+.menu li a
+{
+    display:block;
+    font-size:11px;
+    font-family:Cambria;
+}
+.menu li a:hover
+{
+    background-color:#ccc;
+    height:15px;
+}
+.button
+{
+    background-image: url('../images/btn_bg.gif');
+    font-family: Tahoma; 
+    font-size: 8.5pt; 
+    color: #FFFFFF;
+    border-style: solid; 
+    border-width: 1px;
+    margin:1px;
+}
+.clear
+{
+    clear:both;
+}
+input.txt-field
+{
+    border:1px solid #bebebe;
+    background-color:#dfdfdf;
+    color:#cf4029;
+    padding:0 3px;
+    width:250px;
+    height:22px;
+    padding-top:4px;
+    height:25px;
+    /*font-weight:bold;*/
+}
+.fieldinput
+{
+    font-family: Tahoma; 
+    font-size: 8.5pt; 
+    width:200px;
+    color: #000000;
+    text-align: center;
+}
+.textShortContent
+{
+    font-family: Tahoma; 
+    font-size: 8.5pt; 
+    width:720px;
+    height:100px;
+    color: #000000;
+}
+/*-----------------------------------------------------------------------*/
+.img_show
+{
+    float:left;width:62px;padding:10px;border: 1px dashed #C0C0C0;
+    margin-left:10px;
+}
+.err
+{
+    color:red;
+    font-weight:bold;
+}
+.title_report
+{
+    background:#ccc;height:25px;line-height:20px;text-indent:5px;
+}
+/*-----------------------------------------------------------------------*/
+.editable
+{
+    color:red;
+}
+.pass_bar_0 {
+    WIDTH: 0px; BACKGROUND-COLOR: #ea0000
+}
+.pass_bar_10 {
+    WIDTH: 10px; BACKGROUND-COLOR: #ea0000
+}
+.pass_bar_20 {
+    WIDTH: 20px; BACKGROUND-COLOR: #ea0000
+}
+.pass_bar_30 {
+    WIDTH: 30px; BACKGROUND-COLOR: #fc0
+}
+.pass_bar_40 {
+    WIDTH: 40px; BACKGROUND-COLOR: #fc0
+}
+.pass_bar_60 {
+    WIDTH: 60px; BACKGROUND-COLOR: #0c3
+}
+.pass_bar_70 {
+    WIDTH: 70px; BACKGROUND-COLOR: #0c3
+}
+.pass_bar_80 {
+    WIDTH: 80px; BACKGROUND-COLOR: #0c3
+}
+.pass_bar_90 {
+    WIDTH: 90px; BACKGROUND-COLOR: #0c3
+}
+.pass_bar_100 {
+    WIDTH: 100px; BACKGROUND-COLOR: #0c3
+}
+.pass_bar_base {
+    FLOAT: left; HEIGHT: 10px; TEXT-ALIGN: left
+}
+.pass_bar {
+    BORDER-RIGHT: #999 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #999 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #999 1px solid; WIDTH: 100px; PADDING-TOP: 0px; BORDER-BOTTOM: #999 1px solid; HEIGHT: 10px; BACKGROUND-COLOR: #fff
+}
+
+.pass_bar_50 {
+    WIDTH: 50px; BACKGROUND-COLOR: #fc0
+}
+.viewWish
+{
+    padding-left:10px;padding-bottom:10px
+}
+.viewWish p
+{
+    clear:both;
+}
+#upload{
+    font-weight:bold; font-size:1em;
+    padding:5px;
+    margin:0px;
+    text-align:center;
+    background:#f2f2f2;
+    color:#3366cc;
+    border:1px solid #ccc;
+    cursor:pointer !important;
+    -moz-border-radius:5px; -webkit-border-radius:5px;
+}
+.darkbg{
+}
+#status{
+    font-family:Arial; padding:5px;
+}
+ul#files{ padding:0; margin:0;width:560px}
+ul#files li{margin-left:10px;float:left;padding:5px;}
+.delfile{
+    color:red;
+    font-weight:bold;
+}
+.fileAtt
+{
+    margin-left:90px;
+    margin-top:10px;
+    background-color:#F8F8F8;
+    float:left
+}
+.visitor_day
+{
+    float:left;height:20px;width:93px;line-height:30px;font-weight:bold
+}
+.visitor_result
+{
+    float:left;height:20px;
+}
+.visitor
+{
+    float:left;height:20px;width:230px;line-height:20px;font-style:italic;
+    text-indent:10px;
+}
+.visitor_header
+{
+    float:left;height:20px;width:5px;line-height:20px;
+}

@@ -1,0 +1,1 @@
+﻿//Ghi chữ lên ảnh				include($_cls."write_on_pic.php");				$objWriter = new Write_On_Pic();			$objWriter->inputImage = "data/images/".$picture;		$objWriter->outputImage = "data/images/".$picture;		$objWriter->Action();
