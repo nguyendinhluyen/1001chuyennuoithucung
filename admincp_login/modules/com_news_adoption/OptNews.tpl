@@ -44,9 +44,7 @@
             </p>                       	          		
 
             <p>
-                <label>{news_detail}</label>
-                </br>
-                </br>
+                <label>{news_detail}</label>                
                 <script>
                     var oEdit1 = new InnovaEditor("oEdit1");
                     oEdit1.arrStyle = [["BODY", false, "", "font:12px arial;"]];

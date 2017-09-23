@@ -5,11 +5,10 @@ $error = '';
 //KIEM TRA BAI THEM HOAC SUA KHONG DC TRUNG TEN BAI DA TON TAI TRONG "TRO GIUP"
 function CheckTonTaiBaiViet($news_key) {
     $sql = "SELECT newsadoption_name, 
-					   newsadoption_key,
-					   newsadoption_catalogue 
-				FROM 
-					   news_adoption 
-				WHERE  newsadoption_key = '" . $news_key . "'";
+                newsadoption_key,
+                newsadoption_catalogue 
+            FROM news_adoption 
+            WHERE newsadoption_key = '" . $news_key . "'";
 
     $mysql = new mysql();
 

@@ -258,25 +258,24 @@
                 <br/>
                 <br/>
                 <script>
-                    var oEdit1 = new InnovaEditor("oEdit1");
-                    < !--font:12px Tahoma; -- >
-                            oEdit1.arrStyle = [["BODY", false, "", "font-family:Arial;font-size:12px;"]];
-                            oEdit1.width = "660";
-                    oEdit1.height = "600";
-                    oEdit1.features = ["FullScreen", "Search",
-                        "Cut", "Copy", "Paste", "PasteWord", "PasteText", "|", "Undo", "Redo", "|",
-                        "ForeColor", "BackColor", "|", "Bookmark", "Hyperlink",
-                        "CustomTag", "HTMLSource", "BRK", "Indent", "Outdent", "LTR", "RTL", "|", "Image", "Flash", "Media", "|", "InternalLink", "CustomObject", "|",
-                        "Table", "Guidelines", "Absolute", "|", "Characters", "Line",
-                        "Form", "Clean", "ClearAll", "BRK",
-                        "StyleAndFormatting", "TextFormatting", "ListFormatting", "BoxFormatting",
-                        "ParagraphFormatting", "CssText", "Styles", "|",
-                        "Paragraph", "FontName", "FontSize", "|",
-                        "Bold", "Italic",
-                        "Underline", "Strikethrough", "|", "Superscript", "Subscript", "|",
-                        "JustifyLeft", "JustifyCenter", "JustifyRight", "JustifyFull"];
-                    oEdit1.cmdAssetManager = "modalDialogShow('../assetmanager/assetmanager.php',640,465)";
-                    oEdit1.RENDER(document.getElementById("invdetail").innerHTML);
+                    var oEdit1 = new InnovaEditor("oEdit1");                    
+                        oEdit1.arrStyle = [["BODY", false, "", "font-family:Arial;font-size:12px;"]];
+                        oEdit1.width = "660";
+                        oEdit1.height = "600";
+                        oEdit1.features = ["FullScreen", "Search",
+                            "Cut", "Copy", "Paste", "PasteWord", "PasteText", "|", "Undo", "Redo", "|",
+                            "ForeColor", "BackColor", "|", "Bookmark", "Hyperlink",
+                            "CustomTag", "HTMLSource", "BRK", "Indent", "Outdent", "LTR", "RTL", "|", "Image", "Flash", "Media", "|", "InternalLink", "CustomObject", "|",
+                            "Table", "Guidelines", "Absolute", "|", "Characters", "Line",
+                            "Form", "Clean", "ClearAll", "BRK",
+                            "StyleAndFormatting", "TextFormatting", "ListFormatting", "BoxFormatting",
+                            "ParagraphFormatting", "CssText", "Styles", "|",
+                            "Paragraph", "FontName", "FontSize", "|",
+                            "Bold", "Italic",
+                            "Underline", "Strikethrough", "|", "Superscript", "Subscript", "|",
+                            "JustifyLeft", "JustifyCenter", "JustifyRight", "JustifyFull"];
+                        oEdit1.cmdAssetManager = "modalDialogShow('../assetmanager/assetmanager.php',640,465)";
+                        oEdit1.RENDER(document.getElementById("invdetail").innerHTML);
                 </script>
             </p>
             <br/>
