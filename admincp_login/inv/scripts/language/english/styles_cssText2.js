@@ -1,5 +1,5 @@
 function loadText()
-{
+    {
     var txtLang = document.getElementsByName("txtLang");
     txtLang[0].innerHTML = "Preview";
     txtLang[1].innerHTML = "CSS Text";
@@ -13,20 +13,19 @@ function loadText()
     document.getElementById("btnCancel").value = "cancel";
     document.getElementById("btnApply").value = "apply";
     document.getElementById("btnOk").value = " ok ";
-}
+    }
 function getText(s)
-{
-    switch (s)
     {
+    switch(s)
+        {
         case "You're selecting BODY element.":
             return "You're selecting BODY element.";
         case "Please select a text.":
             return "Please select a text.";
-        default:
-            return "";
+        default:return "";
+        }
     }
-}
 function writeTitle()
-{
+    {
     document.write("<title>Custom CSS</title>")
-}
+    }

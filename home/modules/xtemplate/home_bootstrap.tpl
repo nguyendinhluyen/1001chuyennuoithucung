@@ -4,19 +4,19 @@
         <div class="about-top">
             <div class="col-md-7 about-top-right">
                 <h4></h4>
-                <p>Trước khi nhận nuôi một chú chó con, hãy tự hỏi bản thân bạn một vài điều. 
-                    Tại sao bạn muốn có một con chó con? Bạn sẽ có thời gian, không gian, 
-                    và tiền bạc để chơi với chó con của bạn chứ? Bạn muốn nhận nuôi giống chó nào? 
-                    Hãy chắc chắn rằng bạn đã trả lời hết các câu hỏi bởi một khi bạn đã quyết định tìm kiếm, 
+                <p>Trước khi nhận nuôi một chú chó con, hãy tự hỏi bản thân bạn một vài điều.
+                    Tại sao bạn muốn có một con chó con? Bạn sẽ có thời gian, không gian,
+                    và tiền bạc để chơi với chó con của bạn chứ? Bạn muốn nhận nuôi giống chó nào?
+                    Hãy chắc chắn rằng bạn đã trả lời hết các câu hỏi bởi một khi bạn đã quyết định tìm kiếm,
                     khả năng cao là bạn sẽ không cưỡng lại được sự đáng yêu của chúng mà mang về nhà một chú chó con đấy ...!</p>
                 <a class="more" href="">Xem thêm</a>
             </div>
             <div class="col-md-5 about-top-left">
-                <img src="{linkS}images/ab.jpg" class="img-responsive" alt=""/>
+                <img src="{linkS}petsylayout/images/ab.jpg" class="img-responsive" alt=""/>
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>	 
+    </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
 <path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
@@ -31,7 +31,7 @@
                 <img src="{linkS}petsylayout/images/b-service.jpg" class="img-responsive" alt=""/>
             </div>
             <div class="col-md-7 serve-text">
-                <h4>Tiêm phòng cho vật nuôi là công việc và trách nhiệm vô cùng quan trọng của người nuôi.</h4>                
+                <h4>Tiêm phòng cho vật nuôi là công việc và trách nhiệm vô cùng quan trọng của người nuôi.</h4>
                 <div class="col-md-12 service-grid">
                     <ul>
                         <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
@@ -45,7 +45,7 @@
                         <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
                             </a>Danh Sách Phòng Khám Thú Y Tại Hà Nội</li>
                     </ul>
-                </div>                
+                </div>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
@@ -61,11 +61,11 @@
     <div class="container">
         <h3 class="tittle">Giống chó mèo tiêu biểu</h3>
         <div class="health">
-            <div class="col-md-7 health-text">                
+            <div class="col-md-7 health-text">
                 <p>Chúng ta thường nhận nuôi một chú chó và chỉ nghĩ đơn thuần là chọn giống nào đẹp, thích, nuôi để giữ nhà là được
                     . Tuy nhiên chăm sóc một chú chó tốt đòi hỏi nhiều hơn thế
                     . Mỗi giống chó một tính cách, mỗi chú chó cần môi trường, thức ăn, vệ sinh và mức độ vận động cơ thể khác nhau
-                    . Trước khi đón chó cưng về nuôi bạn cần tìm hiểu kĩ đặc tính của chúng, xem xét xem chúng có phù hợp với điều kiện của gia đình mình hay không.</p>                
+                    . Trước khi đón chó cưng về nuôi bạn cần tìm hiểu kĩ đặc tính của chúng, xem xét xem chúng có phù hợp với điều kiện của gia đình mình hay không.</p>
             </div>
             <div class="col-md-5 health-img">
                 <img src="{linkS}petsylayout/images/food.jpg" class="img-responsive" alt=""/>
@@ -78,7 +78,7 @@
 <path id="trianglePath3" d="M0 0 L50 100 L100 0 Z"></path>
 <path id="trianglePath4" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
-<!--//end-health--> 
+<!--end-health-->
 <!--start-news-->
 <div class="news" id="new">
     <div class="container">
@@ -108,9 +108,9 @@
                     </div>
 
                 </div>
-                <!--post-details-->	
+                <!--post-details-->
                 <div class="clearfix"> </div>
-            </div>	
+            </div>
             <div class="col-md-6 article-post">
                 <a href="{linkS}petsylayout/single.html" ><img src="{linkS}petsylayout/images/g2.jpg" alt="img07"/></a>
                 <div class="col-md-3 post-meta">
@@ -135,18 +135,37 @@
                     </div>
 
                 </div>
-                <!--post-details-->	
+                <!--post-details-->
                 <div class="clearfix"> </div>
-            </div>	
-            <div class="clearfix"> </div>				
+            </div>
+            <div class="clearfix"> </div>
         </div>
     </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
 <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
 <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
-</svg>	
+</svg>
 <!--news-->
 
 <!--banner-Slider-->
 <script src="{linkS}petsylayout/js/responsiveslides.min.js"></script>
+<script> 
+    $(function () {
+        // Slideshow for layout home 
+        $("#slider4").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: false,
+            speed: 500,
+            namespace: "callbacks",
+            before: function () {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function () {
+                $('.events').append("<li>after event fired.</li>");
+            }
+
+        })
+    })
+</script>

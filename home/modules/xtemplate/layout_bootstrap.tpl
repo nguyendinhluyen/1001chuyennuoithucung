@@ -11,10 +11,11 @@
         <meta name="keywords" content="{keywords}">
         <meta name="author" content="1001chuyennuoithucung">
         <!--Bootstrap-->
-        <link href="{linkS}layout/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <script src="{linkS}layout/bootstrap/js/bootstrap.min.js"></script>
+        <link href="{linkS}layout/bootstrap/css/bootstrap.min.css" rel="stylesheet">        
         <!--End Bootstrap-->
-
+        <!--Begin Banner-->        
+        <script type="text/javascript" src="{linkS}layout/js/sliderman.js"></script>        
+        <!--End Banner-->
         <!-- Pesy layout-->
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
         <link href="{linkS}petsylayout/css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -22,19 +23,9 @@
         <link href="{linkS}petsylayout/css/style.css" rel='stylesheet' type='text/css' />
         <script src="{linkS}petsylayout/js/jquery.min.js"></script>
         <!--web-fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,300i,400,400i,500,500i" rel="stylesheet">
-        <!--//we-bfonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway:300,300i,400,400i,500,500i" rel="stylesheet">        
         <script type="text/javascript" src="{linkS}petsylayout/js/move-top.js"></script>
-        <script type="text/javascript" src="{linkS}petsylayout/js/easing.js"></script>
-        <!--/script-->
-        <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                $(".scroll").click(function (event) {
-                    event.preventDefault();
-                    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
-                });
-            });
-        </script>
+        <script type="text/javascript" src="{linkS}petsylayout/js/easing.js"></script>        
         <!--End petsy layout-->
         <!--Facebook SDK-->
         <div id="fb-root"></div>
@@ -42,10 +33,13 @@
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
           js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1491869401059003";
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=119231515452165";
           fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));</script>`        
         <!--End Facebook SDK-->
+        <!--jquery-->               
+        <script type="text/javascript" src="{linkS}layout/bootstrap/css/jquery/jquery-1.11.2.min.js"></script>                
+        <!--End jquery-->
     </head>
     <body>
         <header>
@@ -83,13 +77,13 @@
                             <ul class="rslides callbacks callbacks1" id="slider4">
                                 <li id="callbacks1_s0" class="callbacks1_on">
                                     <div class="banner-info">
-                                        <h3>Thú cưng</h3>
+                                        <h3>Cún cưng</h3>
                                         <h4>Những điều cần biết để chăm sóc sức khoẻ</h4>
                                     </div>
                                 </li>
                                 <li id="callbacks1_s1" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
                                     <div class="banner-info">
-                                        <h3>Thú cưng</h3>
+                                        <h3>Mèo cưng</h3>
                                         <h4>Trạm y tế cho thú cưng</h4>
                                     </div>
                                 </li>
@@ -183,27 +177,11 @@
 <!--start-smoth-scrolling-->
 <a href="#home" id="toTop" class="scroll" style="display: block;">
     <span id="toTopHover" style="opacity: 1;"> </span></a>
-
-<script>
-    $(document).ready(function () {
-        $().UItoTop({easingType: 'easeOutQuart'});
-
-    });
-    // You can also use "$(window).load(function() {"
-    $(function () {
-        // Slideshow 4
-        $("#slider4").responsiveSlides({
-            auto: true,
-            pager: true,
-            nav: false,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top}, 900);
         });
-    });
+    });                
 </script>

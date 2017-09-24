@@ -1,14 +1,14 @@
 <?php
 
-function checkDisclamer($array_temp) {
-    // Load category Disclaimer
-    $list_disclaimer = array(60, 61, 62, 63, 64, 67, 68, 70, 71, 73, 74, 75);
-    for ($i = 1; $i < count($array_temp) - 1; $i++) {
-        if (in_array($array_temp[$i], $list_disclaimer)) {
-            return true;
-        }
-    }
-}
+//function checkDisclamer($array_temp) {
+//    // Load category Disclaimer
+//    $list_disclaimer = array(60, 61, 62, 63, 64, 67, 68, 70, 71, 73, 74, 75);
+//    for ($i = 1; $i < count($array_temp) - 1; $i++) {
+//        if (in_array($array_temp[$i], $list_disclaimer)) {
+//            return true;
+//        }
+//    }
+//}
 
 $news_key = input($_GET['news_key']);
 $info = '';
@@ -62,56 +62,56 @@ $promotionNews['news_content'] = str_replace('line-height:150%', 'line-height:2.
 $promotionNews['news_content'] = str_replace('line-height: 18px', 'line-height:2.0', $promotionNews['news_content']);
 
 // Get relation products
-$display_realtion_product = 'style="display:none"';
-$list_products = $news->getProductOfNews($news_key);
-$relation_product = "";
-$relation_product_2 = "";
-$category = new Category();
-if (!empty($list_products)) {
-    $display_realtion_product = 'style="display:block"';
-    for ($i = 0; $i < 5; $i++) {
-        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
-        if (!empty($category_product)) {
-            $relation_product .=
-                    '<td style="padding-right: 30px">'
-                    . '<table>'
-                    . '<tr><td>'
-                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-                                       style = "color:#929292;">'
-                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
-                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
-                    . '</a></td></tr>'
-                    . '<tr><td>'
-                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-                                       style = "color:#929292;">'
-                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
-                    . '</td></tr>'
-                    . '</table>'
-                    . '</td>';
-        }
-    }
-    for ($i = 5; $i < 10; $i++) {
-        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
-        if (!empty($category_product)) {
-            $relation_product_2 .=
-                    '<td style="padding-right: 30px; padding-top: 60px; padding-bottom: 20px">'
-                    . '<table>'
-                    . '<tr><td>'
-                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-                                           style = "color:#929292;">'
-                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
-                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
-                    . '</a></td></tr>'
-                    . '<tr><td>'
-                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-                                           style = "color:#929292;">'
-                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
-                    . '</td></tr>'
-                    . '</table>'
-                    . '</td>';
-        }
-    }
-}
+//$display_realtion_product = 'style="display:none"';
+//$list_products = $news->getProductOfNews($news_key);
+//$relation_product = "";
+//$relation_product_2 = "";
+//$category = new Category();
+//if (!empty($list_products)) {
+//    $display_realtion_product = 'style="display:block"';
+//    for ($i = 0; $i < 5; $i++) {
+//        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
+//        if (!empty($category_product)) {
+//            $relation_product .=
+//                    '<td style="padding-right: 30px">'
+//                    . '<table>'
+//                    . '<tr><td>'
+//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
+//                                       style = "color:#929292;">'
+//                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
+//                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
+//                    . '</a></td></tr>'
+//                    . '<tr><td>'
+//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
+//                                       style = "color:#929292;">'
+//                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
+//                    . '</td></tr>'
+//                    . '</table>'
+//                    . '</td>';
+//        }
+//    }
+//    for ($i = 5; $i < 10; $i++) {
+//        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
+//        if (!empty($category_product)) {
+//            $relation_product_2 .=
+//                    '<td style="padding-right: 30px; padding-top: 60px; padding-bottom: 20px">'
+//                    . '<table>'
+//                    . '<tr><td>'
+//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
+//                                           style = "color:#929292;">'
+//                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
+//                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
+//                    . '</a></td></tr>'
+//                    . '<tr><td>'
+//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
+//                                           style = "color:#929292;">'
+//                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
+//                    . '</td></tr>'
+//                    . '</table>'
+//                    . '</td>';
+//        }
+//    }
+//}
 
 // List all category of news detail
 $array_temp = explode(',', $promotionNews['upgrade_news_catalogue']);
@@ -172,8 +172,12 @@ if (empty($info_author['name'])) {
 if (empty($info_author['short_content'])) {
     $info_author['short_content'] = "";
 }
-
 $list_news_relation = $news->getListNewsByAuthor($info_author['user_name_visible'], $promotionNews['news_name']);
+$display_1 = "";
+$display_2 = "";
+$display_3 = "";
+$display_4 = "";
+$display_5 = "";
 if (empty($list_news_relation[0]['news_name'])) {
     $display_1 = "style='display:none'";
 }
@@ -212,16 +216,16 @@ for ($i = 0; $i < count($info_category_news); $i++) {
 $disclaimer = "";
 $display_disclaimer = "display:none";
 $display_resource = "";
-if (checkDisclamer($array_temp) == true) {
-    $display_disclaimer = "";
-    $display_resource = "display:none";
-    $disclaimer = "NanaPet là trang thương mại điện tử chuyên cung cấp thức ăn và những
-                        sản phẩm liên quan cho chó mèo. Thông tin trên bài viết này là thông
-                        tin chung, mang tính chất tham khảo hoặc từ quan điểm của những chủ
-                        nuôi giàu kinh nghiệm. Do đó, không thể thay thế vai trò của bác sĩ
-                        thú ý trong từng trường hợp bệnh. Khi thú cưng bị bệnh hoặc gặp vấn đề
-                        sức khỏe, hãy mang bé đến bệnh viện thú y để được hỗ trợ tốt nhất.";
-}
+//if (checkDisclamer($array_temp) == true) {
+//    $display_disclaimer = "";
+//    $display_resource = "display:none";
+//    $disclaimer = "NanaPet là trang thương mại điện tử chuyên cung cấp thức ăn và những
+//                        sản phẩm liên quan cho chó mèo. Thông tin trên bài viết này là thông
+//                        tin chung, mang tính chất tham khảo hoặc từ quan điểm của những chủ
+//                        nuôi giàu kinh nghiệm. Do đó, không thể thay thế vai trò của bác sĩ
+//                        thú ý trong từng trường hợp bệnh. Khi thú cưng bị bệnh hoặc gặp vấn đề
+//                        sức khỏe, hãy mang bé đến bệnh viện thú y để được hỗ trợ tốt nhất.";
+//}
 
 $info = $xtemplate->replace($info, array(
     'disclaimer' => $disclaimer,
@@ -237,9 +241,9 @@ $info = $xtemplate->replace($info, array(
     'translator' => $promotionNews['translator'],
     'date_added' => "Ngày " . $array_date[2] . ", Tháng " . $array_date[1] . ", Năm " . $array_date[0],
     'category' => $category_libary,
-    'relation_product' => $relation_product,
-    'relation_product_2' => $relation_product_2,
-    'display_realtion_product' => $display_realtion_product,
+//    'relation_product' => $relation_product,
+//    'relation_product_2' => $relation_product_2,
+//    'display_realtion_product' => $display_realtion_product,
     'avata' => $info_author['avarta'],
     'name' => $info_author['name'],
     'short_content' => common::limitContent($info_author['short_content'], 200) . $more,
@@ -259,12 +263,13 @@ $info = $xtemplate->replace($info, array(
     'display_3' => $display_3,
     'display_4' => $display_4,
     'display_5' => $display_5,
-    'chuyen_muc' => $chuyen_muc
-        ));
+    'chuyen_muc' => $chuyen_muc,
+    'facebook_news_image' => $promotionNews['news_image']
+));
 $library_active = 'library_active';
 $bread = "Blog";
 $link = "{linkS}doi-song-pets";
-$breadcrumbs_path .= '<a href="{linkS}">'.$pageName.'</a>';
+$breadcrumbs_path = '<a href="{linkS}">'.$pageName.'</a>';
 if ($news_key != '') {
     $breadcrumbs_path .= ' &raquo; <a href="' . $link . '">' . $bread . '</a>' . '&nbsp;&raquo;&nbsp;' . $promotionNews['news_name'];
 } else {
