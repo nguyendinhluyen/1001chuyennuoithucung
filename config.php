@@ -2,7 +2,7 @@
 class config {
 	var $dbtype = 'mysql';
 //	var $host = 'localhost';
-//	var $user = 'chuyenu_user';
+//	var $user = 'chuyennu_user';
 //	var $password = '%nP-}en6BB}w';
 //	var $db = 'chuyennu_db';
 	

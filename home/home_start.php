@@ -2,7 +2,7 @@
 
 ob_start();
 session_start();
-//error_reporting(0);
+error_reporting(0);
 
 define('MSG_SEND_FORGOT_PASS', 'Một email xác nhận việc lấy lại mật khẩu đã gửi, hãy check mail của bạn.');
 define('MSG_SEND_FORGOT_PASS_SUCCESS', 'Mật khẩu mới đã được gủi tới email của bạn.');

@@ -1,2 +1,0 @@
-# nanapet
-Open Source

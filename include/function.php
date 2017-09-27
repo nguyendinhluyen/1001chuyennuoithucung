@@ -10,9 +10,10 @@ function input($string, $html = 0) {
     $string = str_replace('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;', '\t', $string);
 
     if (get_magic_quotes_gpc()) {
-        $string = mysql_real_escape_string(stripslashes($string));
+        //$string = mysql_real_escape_string(stripslashes($string));
+        $string = stripslashes($string);
     } else {
-        $string = mysql_real_escape_string($string);
+        //$string = mysql_real_escape_string($string);
     }
 
     if (!empty($html)) {
