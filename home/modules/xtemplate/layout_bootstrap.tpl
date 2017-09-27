@@ -45,7 +45,7 @@
         <header>
             <div id="home" class="{header}">
                 <div class="top-header">
-                    <div class="container">
+                    <div class="container" style="font-size: 16px; font-family: 'Raleway', sans-serif;">
                         <div class="logo">
                             <a href="{linkS}" style="text-decoration: none"><h1>Chuyện<span> nuôi thú cưng</span></h1></a>
                         </div>
