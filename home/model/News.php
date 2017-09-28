@@ -520,6 +520,21 @@ class News {
                                                     ORDER BY date_publisher DESC");
         return $introduce;
     }
+    
+    public static function getTopNews() {
+        $introduce = GetRows('news_name,
+                            news_image,
+                            news_shortcontent,
+                            news_content,
+                            news_key,
+                            date_added,
+                            translator,
+                            date_publisher'
+                , 'news'
+                , "flag_publisher = 1 AND relax = 0 AND status = 1
+                ORDER BY date_publisher DESC LIMIT 0,6");
+        return $introduce;
+    }
 
     public static function getNewsListAllLibaryDog() {
         $introduce = GetRows('news_name,

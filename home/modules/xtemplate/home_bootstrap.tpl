@@ -19,8 +19,8 @@
     </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
-<path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
+    <path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
 <!--start-breed-section-->
 <div class="breed-section">
@@ -53,8 +53,8 @@
     </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
-<path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
+    <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
 <!--//services-->
 <div class="health-care">
@@ -75,8 +75,8 @@
     </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="trianglePath3" d="M0 0 L50 100 L100 0 Z"></path>
-<path id="trianglePath4" d="M50 100 L100 40 L100 0 Z"></path>
+    <path id="trianglePath3" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath4" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
 <!--end-health-->
 <!--start-news-->
@@ -84,75 +84,48 @@
     <div class="container">
         <h3 class="tittle two">Tin tức</h3>
         <div class="news-article">
+            <!--BEGINLIST_NEWS-->
+            <!--BEGIN_NEWS-->
             <div class="col-md-6 article-post">
-                <a href="{linkS}petsylayout/single.html" ><img src="{linkS}petsylayout/images/g1.jpg" alt="img07"/></a>
-                <div class="col-md-3 post-meta">
-                    <div class="meta-icon">
-                        <div class="pic">
-                            <a href="{linkS}petsylayout/single.html" ><i class="glyphicon glyphicon-picture"></i></a>
-                        </div>
-                    </div>
+                <div class="col-md-4 post-meta">
+                    <a class="button" href="{linkS}doi-song-pets/{news_key}.htm">
+                        <img src="{linkS}upload/news/{news_image}" alt="{news_name}"
+                             style="width: 100%"/></a>
                     <ul class="ad-info">
-                        <li>21 Aug'15</li>
-                        <li> <a href="#">Author</a></li>
-                        <li> <a href="#">24 Comments</a></li>
+                        <li>{date_publisher}</li>
+                        <li> <a href="#">{translator}</a></li>
                     </ul>
                     <div class="clearfix"> </div>
                 </div>
                 <div class="col-md-9 post-details">
-                    <a href="{linkS}petsylayout/single.html"><h3>Lorem Aliquam volutpat</h3></a>
-                    <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
+                    <a class="button" href="{linkS}doi-song-pets/{news_key}.htm">
+                        <h3 style="padding-top: 0px; margin-top: 0px">{news_name}</h3></a>
+                    <p>{news_shortcontent}</p>
                     <div class="read">
-                        <a class="button" href="{linkS}petsylayout/single.html">
+                        <a class="button" href="{linkS}doi-song-pets/{news_key}.htm">
                             <img src="{linkS}petsylayout/images/read.png" alt="" /></a>
                     </div>
-
                 </div>
                 <!--post-details-->
                 <div class="clearfix"> </div>
             </div>
-            <div class="col-md-6 article-post">
-                <a href="{linkS}petsylayout/single.html" ><img src="{linkS}petsylayout/images/g2.jpg" alt="img07"/></a>
-                <div class="col-md-3 post-meta">
-                    <div class="meta-icon">
-                        <div class="pic">
-                            <a href="{linkS}petsylayout/single.html" ><i class="glyphicon glyphicon-picture"></i></a>
-                        </div>
-                    </div>
-                    <ul class="ad-info">
-                        <li>21 Aug'15</li>
-                        <li> <a href="#">Author</a></li>
-                        <li> <a href="#">24 Comments</a></li>
-                    </ul>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="col-md-9 post-details">
-                    <a href="single.html"><h3>Lorem Aliquam volutpat</h3></a>
-                    <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.</p>
-                    <div class="read">
-                        <a class="button" href="{linkS}petsylayout/single.html">
-                            <img src="{linkS}petsylayout/images/read.png" alt="" /></a>
-                    </div>
-
-                </div>
-                <!--post-details-->
-                <div class="clearfix"> </div>
-            </div>
+            <!--END_NEWS-->
+            <!--ENDLIST_NEWS-->
             <div class="clearfix"> </div>
         </div>
     </div>
 </div>
 <svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
-<path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
+    <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
+    <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
 <!--news-->
 
 <!--banner-Slider-->
 <script src="{linkS}petsylayout/js/responsiveslides.min.js"></script>
-<script> 
+<script>
     $(function () {
-        // Slideshow for layout home 
+        // Slideshow for layout home
         $("#slider4").responsiveSlides({
             auto: true,
             pager: true,
