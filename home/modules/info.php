@@ -1,23 +1,15 @@
 <?php
 
-$info = '';
 $news = new News();
-// Lay thong tin bai viet theo loai danh muc thu vien
+
+// Get news
 if (!empty($_GET['choose'])) {
-    if (input($_GET['choose']) === "bai-viet-cho") {
-        $libaries = $news->getNewsListAllLibaryDog();
-    } else if (input($_GET['choose']) === "bai-viet-meo") {
-        $libaries = $news->getNewsListAllLibaryCat();
-    } else {
-        $libaries = $news->getNewsListAllLibaryMainKeyWord($_GET['choose']);
-    }
+    $libaries = $news->getNewsListAllLibaryMainKeyWord($_GET['choose']);
 } else if (!empty($_GET['choose2'])) {
     $libaries = $news->getNewsListAllLibaryKeyWord($_GET['choose2']);
 } else {
     $libaries = $news->getNewsListAllLibary();
 }
-
-$info = $xtemplate->load('libary_bootstrap');
 $total = count($libaries);
 
 // Navigation
@@ -44,12 +36,13 @@ if ($numofpages != $p_now) {
 } else {
     $end = $total;
 }
+$info = $xtemplate->load('libary_bootstrap');
 $block = $xtemplate->get_block_from_str($info, 'PROMOTION');
 $tpl = '';
 $n = count($libaries);
 for ($i = $begin; $i < $end; $i++) {
     if (!empty($libaries[$i]['news_name'])) {
-        $info_author = $news->getInfoAuthor($libaries[$i]['translator']);
+        $info_author = News::getInfoAuthor($libaries[$i]['translator']);
         $idadmin = $info_author["idadmin_control_user"];
         $date_array = split('-', $libaries[$i]['date_publisher']);
         $tpl.= $xtemplate->assign_vars($block, array(
@@ -118,19 +111,9 @@ $info = $xtemplate->replace($info, array(
         ));
 
 if (!empty($_GET['choose'])) {
-    if (input($_GET['choose']) == "bai-viet-cho") {
-        $info = $xtemplate->replace($info, array(
-            'page' => str_replace("page=", "trang-", pagination($linkS . "doi-song-pets/bai-viet-cho/", ceil($numofpages), $page)),
-        ));
-    } else if (input($_GET['choose']) == "bai-viet-meo") {
-        $info = $xtemplate->replace($info, array(
-            'page' => str_replace("page=", "trang-", pagination($linkS . "doi-song-pets/bai-viet-meo/", ceil($numofpages), $page)),
-        ));
-    } else {
-        $info = $xtemplate->replace($info, array(
-            'page' => str_replace("page=", "trang-", pagination($linkS . "doi-song-pets/" . $_GET['choose'] . '/', ceil($numofpages), $page)),
-        ));
-    }
+    $info = $xtemplate->replace($info, array(
+        'page' => str_replace("page=", "trang-", pagination($linkS . "doi-song-pets/" . $_GET['choose'] . '/', ceil($numofpages), $page)),
+    ));
 } else if (!empty($_GET['choose2'])) {
     $info = $xtemplate->replace($info, array(
         'page' => str_replace("page=", "trang-", pagination($linkS . "doi-song-pets/" . $_GET['choose1'] . '/'
