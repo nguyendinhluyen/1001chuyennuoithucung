@@ -291,8 +291,7 @@
                                     margin-bottom: 0.5em;
                                     margin-left: auto;
                                     margin-right: auto;
-                                    color: #999999;
-                                    {display_resource}">
+                                    color: #999999;">
                                 <div style="color:black;
                                      font-size:14px;
                                      width: 100%;

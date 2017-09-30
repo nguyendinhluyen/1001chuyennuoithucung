@@ -1,15 +1,4 @@
 <?php
-
-//function checkDisclamer($array_temp) {
-//    // Load category Disclaimer
-//    $list_disclaimer = array(60, 61, 62, 63, 64, 67, 68, 70, 71, 73, 74, 75);
-//    for ($i = 1; $i < count($array_temp) - 1; $i++) {
-//        if (in_array($array_temp[$i], $list_disclaimer)) {
-//            return true;
-//        }
-//    }
-//}
-
 $news_key = input($_GET['news_key']);
 $info = '';
 $cate = input($_GET['cate']);
@@ -30,7 +19,7 @@ for ($i = 1; $i < 100; $i++) {
     }
 }
 
-//Thay cho toppage
+//toppage
 $promotionNews['news_content'] = str_replace('toppage', '<A href="#section0" style="font-family:RobotoSlabRegular; color: #337ab7"> '
         . 'Về đầu trang </A>', $promotionNews['news_content']);
 $promotionNews['resource'] = str_replace('beginnanapet', '<a href = "', $promotionNews['resource']);
@@ -61,58 +50,6 @@ $promotionNews['news_content'] = str_replace('line-height: 150%', 'line-height:2
 $promotionNews['news_content'] = str_replace('line-height:150%', 'line-height:2.0', $promotionNews['news_content']);
 $promotionNews['news_content'] = str_replace('line-height: 18px', 'line-height:2.0', $promotionNews['news_content']);
 
-// Get relation products
-//$display_realtion_product = 'style="display:none"';
-//$list_products = $news->getProductOfNews($news_key);
-//$relation_product = "";
-//$relation_product_2 = "";
-//$category = new Category();
-//if (!empty($list_products)) {
-//    $display_realtion_product = 'style="display:block"';
-//    for ($i = 0; $i < 5; $i++) {
-//        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
-//        if (!empty($category_product)) {
-//            $relation_product .=
-//                    '<td style="padding-right: 30px">'
-//                    . '<table>'
-//                    . '<tr><td>'
-//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-//                                       style = "color:#929292;">'
-//                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
-//                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
-//                    . '</a></td></tr>'
-//                    . '<tr><td>'
-//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-//                                       style = "color:#929292;">'
-//                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
-//                    . '</td></tr>'
-//                    . '</table>'
-//                    . '</td>';
-//        }
-//    }
-//    for ($i = 5; $i < 10; $i++) {
-//        $category_product = $category->getCategoryKeyByProductID($list_products[$i]['products_id']);
-//        if (!empty($category_product)) {
-//            $relation_product_2 .=
-//                    '<td style="padding-right: 30px; padding-top: 60px; padding-bottom: 20px">'
-//                    . '<table>'
-//                    . '<tr><td>'
-//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-//                                           style = "color:#929292;">'
-//                    . '<img src="{linkS}upload/product/thumb/' . $list_products[$i]['products_image'] . '"'
-//                    . 'alt="{product_name}" style="width:140px;height:140px; cursor:pointer">'
-//                    . '</a></td></tr>'
-//                    . '<tr><td>'
-//                    . '<a class = "product_name" href="{linkS}' . $category_product . '/' . $list_products[$i]['products_key'] . '.htm" 
-//                                           style = "color:#929292;">'
-//                    . '<div class="product_main_title" style="width: 140px; text-align: center">' . $list_products[$i]['products_name'] . '</a></div>'
-//                    . '</td></tr>'
-//                    . '</table>'
-//                    . '</td>';
-//        }
-//    }
-//}
-
 // List all category of news detail
 $array_temp = explode(',', $promotionNews['upgrade_news_catalogue']);
 
@@ -132,7 +69,7 @@ $info = $xtemplate->assign_blocks_content($info, array(
     'NEWSCATEGORY' => $tpl
         ));
 
-// Load relation CHUYEN MUC news 
+// Load relation news 
 $relationNews = $news->getListNewsByCategory($array_temp[1], 0, 5, "DESC", $news_key);
 $n = count($relationNews);
 $tpl = '';
@@ -213,24 +150,7 @@ for ($i = 0; $i < count($info_category_news); $i++) {
     }
 }
 
-$disclaimer = "";
-$display_disclaimer = "display:none";
-$display_resource = "";
-//if (checkDisclamer($array_temp) == true) {
-//    $display_disclaimer = "";
-//    $display_resource = "display:none";
-//    $disclaimer = "NanaPet là trang thương mại điện tử chuyên cung cấp thức ăn và những
-//                        sản phẩm liên quan cho chó mèo. Thông tin trên bài viết này là thông
-//                        tin chung, mang tính chất tham khảo hoặc từ quan điểm của những chủ
-//                        nuôi giàu kinh nghiệm. Do đó, không thể thay thế vai trò của bác sĩ
-//                        thú ý trong từng trường hợp bệnh. Khi thú cưng bị bệnh hoặc gặp vấn đề
-//                        sức khỏe, hãy mang bé đến bệnh viện thú y để được hỗ trợ tốt nhất.";
-//}
-
-$info = $xtemplate->replace($info, array(
-    'disclaimer' => $disclaimer,
-    'display_disclaimer' => $display_disclaimer,
-    'display_resource' => $display_resource,
+$info = $xtemplate->replace($info, array(   
     'news_name' => $promotionNews['news_name'],
     'news_content' => $promotionNews['news_content'],
     'news_shortcontent' => $promotionNews['news_shortcontent'],
@@ -241,9 +161,6 @@ $info = $xtemplate->replace($info, array(
     'translator' => $promotionNews['translator'],
     'date_added' => "Ngày " . $array_date[2] . ", Tháng " . $array_date[1] . ", Năm " . $array_date[0],
     'category' => $category_libary,
-//    'relation_product' => $relation_product,
-//    'relation_product_2' => $relation_product_2,
-//    'display_realtion_product' => $display_realtion_product,
     'avata' => $info_author['avarta'],
     'name' => $info_author['name'],
     'short_content' => common::limitContent($info_author['short_content'], 200) . $more,
