@@ -35,13 +35,7 @@
     }
     #twitter-widget-0{
         width:80px !important;
-    }
-    #___plusone_0{
-        width:57px !important;
-    }
-    #___plusone_1{
-        width:55px !important;
-    }
+    }    
     .fb_iframe_widget_fluid {
         display: inline-block !important;
     }
@@ -292,46 +286,7 @@
                              color:#7F1F00;
                              font-size:14px;
                              font-family:RobotoSlabRegular">
-                            <div style="text-align:left;">
-                                <hr style="margin-top: 0.5em;
-                                    margin-bottom: 0.5em;
-                                    margin-left: auto;
-                                    margin-right: auto;
-                                    color: #999999;
-                                    {display_disclaimer}">
-                                <div style="{display_disclaimer}">
-                                    <span>
-                                        <img alt="disclamer"
-                                             src="{linkS}layout/images/disclamer.png"
-                                             title="Disclaimer"
-                                             width="25px"/>
-                                    </span>
-                                    <span style="color:black;
-                                          font-size:15px;
-                                          width: 100%;
-                                          line-height: 25px;
-                                          font-family: RobotoSlabLight;
-                                          text-align: justify;
-                                          font-style: italic;
-                                          padding-left: 10px">Thông báo</span>
-                                </div>
-                                <div style="color:black;
-                                     font-size:13px;
-                                     width: 100%;
-                                     line-height: 25px;
-                                     font-family: RobotoSlabLight;
-                                     text-align: justify">
-                                    {disclaimer}
-                                </div>
-                                <div style="{display_disclaimer}">
-                                    <div>
-                                        <hr style="margin-top: 0.5em;
-                                            margin-bottom: 0.5em;
-                                            margin-left: auto;
-                                            margin-right: auto;
-                                            color: #999999;">
-                                    </div>
-                                </div>
+                            <div style="text-align:left;">                                
                                 <hr style="margin-top: 0.5em;
                                     margin-bottom: 0.5em;
                                     margin-left: auto;
@@ -425,38 +380,7 @@
                         </div>
                     </div>
                 </div>
-                <div id = "stretch">
-                    <!--<div class="relation_product hidden-xs hidden-sm" {display_realtion_product}>
-                        <hr style="margin-top: 10px;
-                            margin-bottom: 5px;
-                            margin-left: auto;
-                            margin-right: auto;
-                            color: #999999;
-                            clear: both">
-                        <div style="background-color: #f1fdfb;
-                             padding-top: 10px;
-                             padding-bottom: 10px;
-                             clear:both">
-                            <span style="color: #48817a;
-                                  font-size: 14px;
-                                  font-family: RobotoSlabRegular;
-                                  margin-left: 10px;">
-                                SẢN PHẨN LIÊN QUAN
-                            </span>
-                        </div>
-                        <div class="hidden-xs hidden-sm"
-                             style="padding-top: 30px;
-                             padding-bottom: 40px">
-                            <table>
-                                <tr>
-                                    {relation_product}
-                                </tr>
-                                <tr>
-                                    {relation_product_2}
-                                </tr>
-                            </table>
-                        </div>
-                    </div>-->
+                <div id = "stretch">                    
                     <div class="relation_chuyen_muc row">
                         <div class="col-lg-6 col-md-6">
                             <hr style="margin-top: 10px;
