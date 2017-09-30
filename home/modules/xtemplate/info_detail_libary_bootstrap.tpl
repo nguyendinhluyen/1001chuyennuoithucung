@@ -212,7 +212,7 @@
                                    text-align: justify;
                                    font-size: 14px;
                                    line-height: 25px;"
-                                   href="{linkS}doi-song-pets/{relation_news_key_1}/">{relation_news_1}</a>
+                                   href="{linkS}doi-song-pets/{relation_news_key_1}.htm">{relation_news_1}</a>
                             </span>
                         </div>
                         <div {display_2}>
@@ -226,7 +226,7 @@
                                    text-align: justify;
                                    font-size: 14px;
                                    line-height: 25px;"
-                                   href="{linkS}doi-song-pets/{relation_news_key_2}/">{relation_news_2}</a>
+                                   href="{linkS}doi-song-pets/{relation_news_key_2}.htm">{relation_news_2}</a>
                             </span>
                         </div>
                         <div {display_3}>
@@ -240,7 +240,7 @@
                                    text-align: justify;
                                    font-size: 14px;
                                    line-height: 25px;"
-                                   href="{linkS}doi-song-pets/{relation_news_key_3}/">{relation_news_3}</a>
+                                   href="{linkS}doi-song-pets/{relation_news_key_3}.htm">{relation_news_3}</a>
                             </span>
                         </div>
                         <div {display_4}>
@@ -254,7 +254,7 @@
                                     text-align: justify;
                                     font-size: 14px;
                                     line-height: 25px;"
-                                    href="{linkS}doi-song-pets/{relation_news_key_4}/">{relation_news_4}</a>
+                                    href="{linkS}doi-song-pets/{relation_news_key_4}.htm">{relation_news_4}</a>
                             </span>
                         </div>
                         <div {display_5}>
@@ -268,7 +268,7 @@
                                    text-align: justify;
                                    font-size: 14px;
                                    line-height: 25px"
-                                   href="{linkS}doi-song-pets/{relation_news_key_5}/">{relation_news_5}</a>
+                                   href="{linkS}doi-song-pets/{relation_news_key_5}.htm">{relation_news_5}</a>
                             </span>
                         </div>
                     </div>
