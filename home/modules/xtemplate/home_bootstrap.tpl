@@ -56,7 +56,7 @@
         </div>
     </div>
 </div>
-<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg id="bigTriangleShadow" style="margin-top: -1px" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
     <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
     <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
@@ -88,7 +88,7 @@
         </div>
     </div>
 </div>
-<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg id="bigTriangleShadow" style="margin-top: -1px" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
     <path id="trianglePath3" d="M0 0 L50 100 L100 0 Z"></path>
     <path id="trianglePath4" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
@@ -130,7 +130,7 @@
         </div>
     </div>
 </div>
-<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg id="bigTriangleShadow" style="margin-top: -1px" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
     <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z"></path>
     <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
