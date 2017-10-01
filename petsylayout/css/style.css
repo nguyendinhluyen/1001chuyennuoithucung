@@ -410,7 +410,7 @@ label{
     min-height:137px;
 }
 .about {
-    padding:12em 0 4em 0;
+    padding:12em 0 2em 0;
 }
 h3.tittle{
 font-size: 3em;
@@ -618,7 +618,7 @@ font-size: 3em;
 }
 /*--breed-services--*/
 .breed-section {
-    padding:10em 0 4em 0;
+    padding:5em 0 2em 0;
 	background-color:#6CF3EB;
 }
 svg:not(:root) {
@@ -639,7 +639,7 @@ svg:not(:root) {
     line-height: 1.9em;
 }
 .serve-text h4 {
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
 	    color: #020202;
     font-size: 1.6em;
 }
@@ -671,7 +671,7 @@ h3.tittle.two {
 }
 /*--health--*/
 .health-care {
-       padding: 10em 0 4em 0;
+       padding: 7em 0 2em 0;
     background-color: #F7f7f7;
 }
 .health-text h4 {
@@ -1340,7 +1340,7 @@ a:hover.tooltips span {
 	.banner-bottom {
 		position: absolute;
 		left: 2.3%;
-		bottom: -35%;
+		bottom: -40%;
 	}
 	.header {
 		background: url(../images/bg.jpg);
@@ -1458,7 +1458,7 @@ a:hover.tooltips span {
 	.banner-bottom {
 		position: absolute;
 		left: 0%;
-		bottom: -42%;
+		bottom: -55%;
 	}
 	.banner-grid.three{
 		margin:0;
@@ -1851,10 +1851,10 @@ a:hover.tooltips span {
 	.banner-bottom {
     position: absolute;
     left: 0%;
-    bottom: -190%;
+    bottom: -200%;
 	}
 	.about {
-		padding: 28em 0 4em 0;
+		padding: 29em 0 2em 0;
 	}
 	.header {
 		background: url(../images/bg.jpg);
@@ -1975,7 +1975,7 @@ a:hover.tooltips span {
 	.banner-bottom {
 		position: absolute;
 		left: 0%;
-		bottom: -215%;
+		bottom: -235%;
 	}
 	.callbacks_tabs {
 		bottom: -45%;
@@ -1983,7 +1983,7 @@ a:hover.tooltips span {
 		left: 20%;
 	}
 	.about {
-    padding: 27em 0 1em 0;
+    padding: 29em 0 1em 0;
 	}
 	a.tooltips span {
 		width: 130px;
@@ -2125,4 +2125,3 @@ a:hover.tooltips span {
 		padding: 0 5px!important;
 	}
 }
-

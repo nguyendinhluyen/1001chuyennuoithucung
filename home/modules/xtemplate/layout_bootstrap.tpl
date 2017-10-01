@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="banner" style="{home_display}">
-                    <div class="container">
+                    <div class="container hidden-xs">
                         <div id="top" class="callbacks_container">
                             <ul class="rslides callbacks callbacks1" id="slider4">
                                 <li id="callbacks1_s0" class="callbacks1_on">
@@ -104,9 +104,11 @@
                                         <i class="glyphicon glyphicon-time"> </i>
                                     </div>
                                     <div class="icon-text">
+                                        <a href="{linkS}doi-song-pets/cham-soc-cho-meo-59/">
                                         <h4>CHĂM SÓC CHÓ MÈO</h4>
                                         <p>Giấc ngủ đêm đầu tiên của cún con tại nhà mới có thể xảy ra khả năng:
-                                            cún sẽ mệt nhoài sau sự náo động trong ngày mà chìm luôn vào giấc ngủ ...</p>
+                                            cún sẽ mệt nhoài sau sự náo động trong ngày...</p>
+                                        </a>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>
@@ -115,9 +117,11 @@
                                         <i class="glyphicon glyphicon-wrench"> </i>
                                     </div>
                                     <div class=" icon-text">
+                                        <a href="{linkS}doi-song-pets/kenh-thong-tin-51/">
                                         <h4>KÊNH THÔNG TIN</h4>
                                         <p>Với tình hình trộm cắp chó ngày càng nghiêm trọng,
-                                            chủ nuôi cần có những kiến thức cần thiết để đảm bảo an toàn cho thú cưng ...</p>
+                                            chủ nuôi cần có những kiến thức để đảm bảo an toàn cho thú cưng ...</p>
+                                        </a>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>
@@ -126,9 +130,11 @@
                                         <i class="glyphicon glyphicon-briefcase"> </i>
                                     </div>
                                     <div class="icon-text">
+                                        <a href="{linkS}doi-song-pets/dinh-duong-vitamin-bo-sung-66/">
                                         <h4>DINH DƯỠNG </h4>
-                                        <p>Thức ăn mà cún vẫn tiêu thụ hàng ngày có tác động lớn tới sức khỏe răng lợi
-                                            – nhân tố ảnh hưởng tới hệ miễn dịch của cún. Vì vậy, ngoài việc chăm sóc hàng ngày ...</p>
+                                        <p>Thức ăn mà cún vẫn tiêu thụ hàng ngày có tác động lớn tới sức khỏe
+                                            – ảnh hưởng tới hệ miễn dịch của cún hàng ngày ...</p>
+                                        </a>
                                     </div>
                                     <div class="clearfix"> </div>
                                 </div>

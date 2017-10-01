@@ -1,24 +1,31 @@
-<div class="about">
-    <div class="container">
+<div class="about">    
+    <div class="container">        
         <h3 class="tittle wel">Chăm sóc cho chó cưng</h3>
         <div class="about-top">
             <div class="col-md-7 about-top-right">
-                <h4></h4>
                 <p>Trước khi nhận nuôi một chú chó con, hãy tự hỏi bản thân bạn một vài điều.
                     Tại sao bạn muốn có một con chó con? Bạn sẽ có thời gian, không gian,
                     và tiền bạc để chơi với chó con của bạn chứ? Bạn muốn nhận nuôi giống chó nào?
                     Hãy chắc chắn rằng bạn đã trả lời hết các câu hỏi bởi một khi bạn đã quyết định tìm kiếm,
                     khả năng cao là bạn sẽ không cưỡng lại được sự đáng yêu của chúng mà mang về nhà một chú chó con đấy ...!</p>
-                <a class="more" href="">Xem thêm</a>
+                <ul class="service-grid">
+                    <!--BEGINLIST_NEWSDOG-->
+                    <!--BEGIN_NEWSDOG-->
+                    <li><a href="{linkS}doi-song-pets/{news_key}.htm">
+                            <i class="glyphicon glyphicon-forward"></i>
+                            {news_name}</a></li>
+                    <!--END_NEWSDOG-->
+                    <!--ENDLIST_NEWSDOG-->
+                </ul>
             </div>
             <div class="col-md-5 about-top-left">
                 <img src="{linkS}petsylayout/images/ab.jpg" class="img-responsive" alt=""/>
             </div>
             <div class="clearfix"></div>
-        </div>
-    </div>
+        </div>        
+    </div>            
 </div>
-<svg id="bigTriangleShadow" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg id="bigTriangleShadow" style="margin-top: -1px" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
     <path id="trianglePath5" d="M0 0 L50 100 L100 0 Z"></path>
     <path id="trianglePath6" d="M50 100 L100 40 L100 0 Z"></path>
 </svg>
@@ -34,16 +41,13 @@
                 <h4>Tiêm phòng cho vật nuôi là công việc và trách nhiệm vô cùng quan trọng của người nuôi.</h4>
                 <div class="col-md-12 service-grid">
                     <ul>
-                        <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
-                            </a>Tìm Hiểu Về Vắc Xin Cho Vật Nuôi Phần 1 - Chó</li>
-                        <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
-                            </a>Tìm Hiểu Về Vắc Xin Cho Vật Nuôi Phần 2 - Mèo</li>
-                        <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
-                            </a>Danh Sách Phòng Khám Thú Y Tại TP.Hồ Chí Minh - P2</li>
-                        <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
-                            </a>Danh Sách Phòng Khám Thú Y Tại TP.Hồ Chí Minh - P1</li>
-                        <li><a href="#"><i class="glyphicon glyphicon-forward"></i>
-                            </a>Danh Sách Phòng Khám Thú Y Tại Hà Nội</li>
+                        <!--BEGINLIST_MEDICAL-->
+                        <!--BEGIN_MEDICAL-->
+                        <li><a href="{linkS}doi-song-pets/{news_key}.htm">
+                                <i class="glyphicon glyphicon-forward"></i>
+                                {news_name}</a></li>
+                        <!--END_MEDICAL-->
+                        <!--ENDLIST_MEDICAL-->
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -59,13 +63,23 @@
 <!--//services-->
 <div class="health-care">
     <div class="container">
-        <h3 class="tittle">Giống chó mèo tiêu biểu</h3>
+        <h3 class="tittle">Giống mèo tiêu biểu</h3>
         <div class="health">
-            <div class="col-md-7 health-text">
-                <p>Chúng ta thường nhận nuôi một chú chó và chỉ nghĩ đơn thuần là chọn giống nào đẹp, thích, nuôi để giữ nhà là được
-                    . Tuy nhiên chăm sóc một chú chó tốt đòi hỏi nhiều hơn thế
-                    . Mỗi giống chó một tính cách, mỗi chú chó cần môi trường, thức ăn, vệ sinh và mức độ vận động cơ thể khác nhau
-                    . Trước khi đón chó cưng về nuôi bạn cần tìm hiểu kĩ đặc tính của chúng, xem xét xem chúng có phù hợp với điều kiện của gia đình mình hay không.</p>
+            <div class="col-md-7 health-text" style="padding-left: 0px">
+                <p>Có hơn 70 chủng loài mèo khác nhau được công nhận trên khắp thế giới,
+                    để truy ra được cặn kẽ nguồn gốc của tất cả 70 loài là công việc rất phức tạp.
+                    Bản infographic sau đây sẽ chọn nói về một vài giống tiêu biểu được ưa thích nhất.
+                    Có thể bạn quan tâm: 10 Hoa Hậu Mèo Năm 2015, Mèo Mỹ Lông Ngắn (American Shorthair).
+                    Một số khác lại tự tiến hoá và đạt được các đặc điểm hoàn toàn mới lạ!</p>
+                <ul class="service-grid">
+                    <!--BEGINLIST_NEWSCAT-->
+                    <!--BEGIN_NEWSCAT-->
+                    <li><a href="{linkS}doi-song-pets/{news_key}.htm">
+                            <i class="glyphicon glyphicon-forward"></i>
+                            {news_name}</a></li>
+                    <!--END_NEWSCAT-->
+                    <!--ENDLIST_NEWSCAT-->
+                </ul>
             </div>
             <div class="col-md-5 health-img">
                 <img src="{linkS}petsylayout/images/food.jpg" class="img-responsive" alt=""/>
@@ -93,7 +107,8 @@
                              style="width: 100%"/></a>
                     <ul class="ad-info">
                         <li>{date_publisher}</li>
-                        <li> <a href="#">{translator}</a></li>
+                        <li><a href="{linkS}cong-tac-vien/{idadmin}.html/page=0" ref="nofollow">
+                                {translator}</a></li>
                     </ul>
                     <div class="clearfix"> </div>
                 </div>
