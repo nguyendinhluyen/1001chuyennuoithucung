@@ -59,7 +59,9 @@
             <div class="news_main_libary">
                 <h1 class="contentheading"
                     style="font-family:PoetsenOne;
-                    font-size: 30px">{news_name}</h1>
+                    font-size: 30px;
+                    margin-top: 20px;
+                    margin-bottom: 10px">{news_name}</h1>
                 <div style="margin-bottom:10px;
                      color:black;
                      font-size:14px;
