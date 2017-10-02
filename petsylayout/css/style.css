@@ -122,11 +122,11 @@ label{
 		display: inline-block;
 		float: right;
 		cursor: pointer;
-		margin: 12px 3px;
+		margin: 0px 3px;
 	}
 	.top-menu {
 		float: none;
-		margin-top: 0em;
+		margin-top: 1em;
 	}
 	.top-menu  ul{
 		display:none;
@@ -410,12 +410,13 @@ label{
     min-height:137px;
 }
 .about {
-    padding:12em 0 2em 0;
+    padding:10em 0 2em 0;
 }
 h3.tittle{
-font-size: 3em;
+    font-size: 3em;
     font-weight: 400;
     color: #2ad2c9;
+    padding-top: 30px
 }
 .about-top {
     margin-top: 1em;
@@ -1297,7 +1298,8 @@ a:hover.tooltips span {
 		bottom: -22%;
 	}
 	h3.tittle {
-    font-size: 2.7em;
+            margin-top: 30px;
+            font-size: 2.7em;
 	}
 	.banner-grid.one, .banner-grid.two, .banner-grid.three {
 		padding: 3em 2em;
@@ -1336,6 +1338,7 @@ a:hover.tooltips span {
 		padding: 2em 2em;
 		margin-right: 1%;
 		width: 32.3%;
+                height: 250px;
 	}
 	.banner-bottom {
 		position: absolute;
@@ -1447,7 +1450,7 @@ a:hover.tooltips span {
 		margin-top: 0;
 	}
 	.top-header {
-		padding: 1em 0 0 0;
+		padding: 1em 0 1em 0;
 	}
 	.banner-grid.one, .banner-grid.two, .banner-grid.three {
 		padding: 1em 1em;
@@ -1478,9 +1481,9 @@ a:hover.tooltips span {
 		margin-top: 2em;
 	}
 	.service-grid {
-		float: left;
-		width:49%;
+		float: left;		
 		margin-right:1%;
+                width: 100%
 	}
 	.health-img {
 		padding: 0;
@@ -1517,6 +1520,7 @@ a:hover.tooltips span {
 	}
 	h3.tittle {
 		font-size: 2.5em;
+                padding-top: 10px
 	}
 	.header.two {
 		background: url(../images/bg2.jpg);
@@ -1687,7 +1691,7 @@ a:hover.tooltips span {
 		margin-top: 0.8em;
 	}
 	.top-header {
-		padding: 0.5em 0 0 0;
+		padding: 1em 0 1em 0;
 	}
 	.ch-grid li {
 		width: 180px;
@@ -1792,6 +1796,7 @@ a:hover.tooltips span {
 	}
 	h3.tittle {
 		font-size: 2.3em;
+                padding-top: 0px
 	}
 	.logo a h1 {
     font-size: 3em;
@@ -1847,6 +1852,7 @@ a:hover.tooltips span {
 		margin-right: 0;
 		width: 100%;
 		float: left;
+                height: 165px
 	}
 	.banner-bottom {
     position: absolute;

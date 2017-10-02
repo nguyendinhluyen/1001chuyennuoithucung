@@ -54,8 +54,7 @@
                         <div class="top-menu">
                             <span class="menu"> </span>
                             <ul class="cl-effect-16">
-                                <li><a class="{home}" href="{linkS}" data-hover="Trang chủ">Trang chủ</a></li>
-                                <li><a href="" data-hover="Về chúng tôi">Về chúng tôi</a></li>
+                                <li><a class="{home}" href="{linkS}" data-hover="Trang chủ">Trang chủ</a></li>                                
                                 <li><a class="{blog}" href="{linkS}doi-song-pets" data-hover="Blog">Blog</a></li>
                                 <li><a href="" data-hover="Hình ảnh">Hình ảnh</a></li>
                                 <li><a href="" data-hover="Liên hệ">Liên hệ</a></li>                        
@@ -109,7 +108,7 @@
                                         <a href="{linkS}doi-song-pets/cham-soc-cho-meo-59/">
                                         <h4>CHĂM SÓC CHÓ MÈO</h4>
                                         <p>Giấc ngủ đêm đầu tiên của cún con tại nhà mới có thể xảy ra khả năng:
-                                            cún sẽ mệt nhoài sau sự náo động trong ngày...</p>
+                                            cún sẽ mệt nhoài sau sự náo động...</p>
                                         </a>
                                     </div>
                                     <div class="clearfix"> </div>
