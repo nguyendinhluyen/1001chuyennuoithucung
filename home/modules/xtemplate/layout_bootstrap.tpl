@@ -11,9 +11,11 @@
         <meta name="keywords" content="{keywords}">
         <meta name="author" content="1001chuyennuoithucung">
         <!--Bootstrap-->
+        <script type="text/javascript" src="{linkS}layout/bootstrap/css/jquery/jquery-1.11.2.min.js"></script>                
         <link href="{linkS}layout/bootstrap/css/bootstrap.min.css" rel="stylesheet">        
+        <script src="{linkS}layout/bootstrap/js/bootstrap.min.js"></script>                
         <!--End Bootstrap-->
-        <!--Begin Banner-->        
+        <!--Begin Banner-->
         <script type="text/javascript" src="{linkS}layout/js/sliderman.js"></script>        
         <!--End Banner-->
         <!-- Pesy layout-->
