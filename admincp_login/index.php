@@ -6,9 +6,11 @@ ob_start();
 define('_INC1', '../include/');
 define('_INC2', '../class/');
 define('_INC3', '../');
+define('_INC4', 'include/');
 include(_INC1 . 'function.php');
 include(_INC2 . 'mysql.php');
 include(_INC3 . 'config.php');
+include(_INC4 . 'constant.php');
 
 $obj_config = new config();
 $mysql = new mysql();
@@ -20,6 +22,11 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
+$disabled = '';
+$error = '';
+$refresh = '';
+$slectedVi = '';
+$slectedEn = '';
 if (isset($_SESSION['admin'])) {
     header('location:./modules/');
 } else {
@@ -36,6 +43,11 @@ if (isset($_SESSION['admin'])) {
         $row = GetOneRow('idadmin_control_user, user_name, datemodify, checked_box_save, user_name_visible'
                 , 'admin_control_user'
                 , 'user_name="' . $username . '" AND password = "' . md5(base64_encode(md5($password))) . '"');
+        $accessControl = $row['checked_box_save'];
+        if ($accessControl != null) {
+            $accessControl = ';' . $accessControl;
+        }
+
         $adminFile = "./modules/com_admin/adminFile.log";
         $CF = fopen($adminFile, "r");
         $arr = fread($CF, filesize($adminFile));
@@ -44,10 +56,14 @@ if (isset($_SESSION['admin'])) {
         $slectedVi = ($_POST['dllang'] == 'vi') ? 'selected' : '';
         $slectedEn = ($_POST['dllang'] == 'en') ? 'selected' : '';
 
-        if ((md5(base64_encode(md5($username))) == $arr[0]) && (md5(base64_encode(md5($password))) == $arr[1])) {
-            $accescontrol = ';1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;33;34;35;';
+        if ((md5(base64_encode(md5($username))) == $arr[0]) 
+                && (md5(base64_encode(md5($password))) == $arr[1])) {
+            $accesControl = constant::$fullAccessControl;
             $visible_user_name = "NanaPet";
-            $_SESSION['admin'] = array($username, $password, $arr[2], $accescontrol, $visible_user_name, 0);
+            $_SESSION['admin'] = array($username
+                            , $password, $arr[2]
+                            , "accessControl" => $accesControl
+                            , $visible_user_name, 0);
             $_SESSION['lag'] = $_POST['dllang'];
             $arr = md5(base64_encode(md5($username))) . ':'
                     . md5(base64_encode(md5($password))) . ':' . time();
@@ -62,11 +78,13 @@ if (isset($_SESSION['admin'])) {
         } else if (!empty($row) && (md5(base64_encode(md5($username))) != $arr[0])) {
             $visible_user_name = $row['user_name_visible'];
             if (empty($row['datemodify'])) {
-                $_SESSION['admin'] = array($username, $password, time(), $row['checked_box_save'], $visible_user_name,
+                $_SESSION['admin'] = array($username, $password, time()
+                    , "accessControl" => $accessControl, $visible_user_name,
                     $row['idadmin_control_user']);
             } else {
-                $_SESSION['admin'] = array($username, $password, $row['datemodify'], $row['checked_box_save'], $visible_user_name,
-                    $row['idadmin_control_user']);
+                $_SESSION['admin'] = array($username, $password, $row['datemodify']
+                    , "accessControl" => $accessControl, $visible_user_name,
+                $row['idadmin_control_user']);
             }
 
             $data = array(
