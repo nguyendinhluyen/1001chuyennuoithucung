@@ -30,7 +30,7 @@ if (isset($_SESSION['admin'])) {
     }
 
     include('com_admin/menu.php');
-    $accessControl = $_SESSION['admin']['accessControl'];
+    $accessControl = $_SESSION['admin'][3];
     switch ($show) {
         case 'admin_user_info':
             include('com_admin_member/memberUpdate.php');
@@ -430,7 +430,7 @@ if (isset($_SESSION['admin'])) {
 //            include('com_user/memberGroup.php');
 //            break;
         default:
-            include('com_report/report.php');
+            include('com_report/admin_user_info.php');
             break;
     }
     $xtemplate->path = "com_admin/";

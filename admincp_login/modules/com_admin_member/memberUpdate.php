@@ -1,6 +1,6 @@
 <?php
-
-if (isset($_SESSION['admin'][5]) && $_SESSION['admin'][5] !== 0) {
+$id = $_SESSION['admin'][5];
+if (isset($id) && $id !== 0) {
     if (isset($_GET['success']) && $_GET['success'] === "true") {
         ?>
         <script>
@@ -8,21 +8,20 @@ if (isset($_SESSION['admin'][5]) && $_SESSION['admin'][5] !== 0) {
         </script>
         <?php
 
-    }
-    $id = $_SESSION['admin'][5];
+    }    
     $row_ac = GetOneRow('user_name,
-                            name,
-                            sex,
-                            birthday,
-                            avarta,
-                            phone,
-                            email,
-                            address,
-                            short_content,
-                            facebook,
-                            google,
-                            twitter,
-                            linkedin', 'admin_control_user', "idadmin_control_user = '$id'");
+                        name,
+                        sex,
+                        birthday,
+                        avarta,
+                        phone,
+                        email,
+                        address,
+                        short_content,
+                        facebook,
+                        google,
+                        twitter,
+                        linkedin', 'admin_control_user', "idadmin_control_user = '$id'");
     $selected1 = "";
     $selected2 = "";
     if ($row_ac['sex'] == 0) {
@@ -171,5 +170,5 @@ $content = $xtemplate->replace($content, array(
     'error' => $error,
     'visible_name' => $_SESSION['admin'][4],
     'none_block' => $none_block
-        ));
+    ));
 ?>

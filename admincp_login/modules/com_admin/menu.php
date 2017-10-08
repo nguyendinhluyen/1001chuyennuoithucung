@@ -2,7 +2,7 @@
 
 $xtemplate->path = 'com_admin/';
 $menu = $xtemplate->load('menu');
-$accessControl = $_SESSION['admin']['accessControl'];
+$accessControl = $_SESSION['admin'][3];
 if (!empty($row)) {
     // Display sub-menu
     $arr_accessControl = explode(';', $accessControl);

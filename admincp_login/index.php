@@ -40,7 +40,10 @@ if (isset($_SESSION['admin'])) {
         $visible_user_name = "";
         $username = $_POST['username'];
         $password = $_POST['password'];
-        $row = GetOneRow('idadmin_control_user, user_name, datemodify, checked_box_save, user_name_visible'
+        $row = GetOneRow('idadmin_control_user, '
+                . 'user_name, datemodify, '
+                . 'checked_box_save, '
+                . 'user_name_visible'
                 , 'admin_control_user'
                 , 'user_name="' . $username . '" AND password = "' . md5(base64_encode(md5($password))) . '"');
         $accessControl = $row['checked_box_save'];
@@ -55,15 +58,16 @@ if (isset($_SESSION['admin'])) {
         $arr = explode(':', $arr);
         $slectedVi = ($_POST['dllang'] == 'vi') ? 'selected' : '';
         $slectedEn = ($_POST['dllang'] == 'en') ? 'selected' : '';
-
-        if ((md5(base64_encode(md5($username))) == $arr[0]) 
+        if ((md5(base64_encode(md5($username))) == $arr[0])
                 && (md5(base64_encode(md5($password))) == $arr[1])) {
             $accesControl = constant::$fullAccessControl;
             $visible_user_name = "NanaPet";
             $_SESSION['admin'] = array($username
-                            , $password, $arr[2]
-                            , "accessControl" => $accesControl
-                            , $visible_user_name, 0);
+                                    , $password
+                                    , $arr[2]
+                                    , $accesControl
+                                    , $visible_user_name
+                                    , 0);
             $_SESSION['lag'] = $_POST['dllang'];
             $arr = md5(base64_encode(md5($username))) . ':'
                     . md5(base64_encode(md5($password))) . ':' . time();
@@ -74,17 +78,23 @@ if (isset($_SESSION['admin'])) {
             unset($_SESSION['return']);
             unset($_SESSION['timewait']);
             setcookie('login', 1, -1);
-            header('location:./modules/?' . $return);
+            header('location:./modules?show=admin_user_info' . $return);
         } else if (!empty($row) && (md5(base64_encode(md5($username))) != $arr[0])) {
             $visible_user_name = $row['user_name_visible'];
             if (empty($row['datemodify'])) {
-                $_SESSION['admin'] = array($username, $password, time()
-                    , "accessControl" => $accessControl, $visible_user_name,
-                    $row['idadmin_control_user']);
+                $_SESSION['admin'] = array($username
+                                    , $password
+                                    , time()
+                                    , $accessControl
+                                    , $visible_user_name
+                                    , $row['idadmin_control_user']);
             } else {
-                $_SESSION['admin'] = array($username, $password, $row['datemodify']
-                    , "accessControl" => $accessControl, $visible_user_name,
-                $row['idadmin_control_user']);
+                $_SESSION['admin'] = array($username
+                                    , $password
+                                    , $row['datemodify']
+                                    , $accessControl
+                                    , $visible_user_name
+                                    , $row['idadmin_control_user']);
             }
 
             $data = array(
@@ -97,7 +107,7 @@ if (isset($_SESSION['admin'])) {
             unset($_SESSION['return']);
             unset($_SESSION['timewait']);
             setcookie('login', 1, -1);
-            header('location:./modules/?' . $return);
+            header('location:./modules?show=admin_user_info' . $return);
         } else {
             if (!isset($_COOKIE['login'])) {
                 setcookie('login', 1);
