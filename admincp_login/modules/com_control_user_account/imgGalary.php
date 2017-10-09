@@ -2,8 +2,8 @@
 
 $title = "Quản lý người dùng";
 // Delete
-if (($_GET['action'] == 'del') && (isset($_GET['id']))) {
-    delete('admin_control_user', 'idadmin_control_user=' . intval($_GET['id']));
+if (($_GET['action'] == 'del') && (isset($_GET['id']))) { 
+    update('admin_control_user', array('deleted' => '1'), 'idadmin_control_user='.$_GET['id']);
 }
 $xtemplate->path = 'com_control_user_account/';
 $content = $xtemplate->load('imgGalary');

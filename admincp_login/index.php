@@ -45,7 +45,8 @@ if (isset($_SESSION['admin'])) {
                 . 'checked_box_save, '
                 . 'user_name_visible'
                 , 'admin_control_user'
-                , 'user_name="' . $username . '" AND password = "' . md5(base64_encode(md5($password))) . '"');
+                , 'user_name="' . $username
+                . '" AND deleted = 0 AND password = "' . md5(base64_encode(md5($password))) . '"');
         $accessControl = $row['checked_box_save'];
         if ($accessControl != null) {
             $accessControl = ';' . $accessControl;
