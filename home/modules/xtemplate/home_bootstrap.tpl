@@ -18,8 +18,8 @@
                     <!--ENDLIST_NEWSDOG-->
                 </ul>
             </div>
-            <div class="col-md-5 about-top-left">
-                <img src="{linkS}petsylayout/images/ab.jpg" class="img-responsive" alt=""/>
+            <div class="col-xs-12 col-md-5 about-top-left">
+                <img src="{linkS}petsylayout/images/ab.jpg" class="img-responsive" alt="chăm sóc cho chó cưng"/>
             </div>
             <div class="clearfix"></div>
         </div>        
@@ -34,8 +34,8 @@
     <div class="container">
         <h3 class="tittle two">Tiêm chủng ngừa - thú y</h3>
         <div class="serve-grids">
-            <div class="col-md-5 service-img">
-                <img src="{linkS}petsylayout/images/b-service.jpg" class="img-responsive" alt=""/>
+            <div class="col-xs-12 col-md-5 service-img">
+                <img src="{linkS}petsylayout/images/b-service.jpg" class="img-responsive" alt="tiêm chủng ngừa - thú y"/>
             </div>
             <div class="col-md-7 serve-text">
                 <h4>Tiêm phòng cho vật nuôi là công việc và trách nhiệm vô cùng quan trọng của người nuôi.</h4>
@@ -81,8 +81,8 @@
                     <!--ENDLIST_NEWSCAT-->
                 </ul>
             </div>
-            <div class="col-md-5 health-img">
-                <img src="{linkS}petsylayout/images/food.jpg" class="img-responsive" alt=""/>
+            <div class="col-xs-12 col-md-5 health-img">
+                <img src="{linkS}petsylayout/images/food.jpg" class="img-responsive" alt="giống mèo tiêu biểu"/>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -118,7 +118,7 @@
                     <p>{news_shortcontent}</p>
                     <div class="read">
                         <a class="button" href="{linkS}doi-song-pets/{news_key}.htm">
-                            <img src="{linkS}petsylayout/images/read.png" alt="" /></a>
+                            <img src="{linkS}petsylayout/images/read.png" alt="tin tức" /></a>
                     </div>
                 </div>
                 <!--post-details-->

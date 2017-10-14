@@ -644,9 +644,9 @@ svg:not(:root) {
 	    color: #020202;
     font-size: 1.6em;
 }
-.service-grid ul{
+/*.service-grid ul{
 	margin: 1em 0 0 10px;
-}
+}*/
 .service-grid li{
     display: block;
     margin: 5px 0;
@@ -1190,7 +1190,7 @@ ul.social-icons {
   margin-top: 1em;
 }
 a.tooltips {
-  position: relative;
+/*  position: relative;*/
   display: inline;
 }
 ul.social-icons li:nth-child(5){
