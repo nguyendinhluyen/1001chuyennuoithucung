@@ -39,7 +39,7 @@
             </div>
             <div class="col-md-7 serve-text">
                 <h4>Tiêm phòng cho vật nuôi là công việc và trách nhiệm vô cùng quan trọng của người nuôi.</h4>
-                <div class="col-md-12 service-grid">
+                <div class="col-md-12 service-grid" style="padding-left: 0px">
                     <ul>
                         <!--BEGINLIST_MEDICAL-->
                         <!--BEGIN_MEDICAL-->
